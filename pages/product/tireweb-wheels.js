@@ -13,7 +13,7 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Wheels: Your Ultimate Wheel Solution</h1>
               <div className="_15px-gap"></div>
@@ -23,11 +23,11 @@ export default function Page() {
                 <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="baner-wraper-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/wheel-visualizer-1-p-500.png 500w, ../images/wheel-visualizer-1.png 670w" alt="" className="baner-wraper-icon gap-top" /></div>
+            <div className="baner-wraper-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/wheel-visualizer-1-p-500.png 500w, /images/wheel-visualizer-1.png 670w" alt="" className="baner-wraper-icon gap-top" /></div>
           </div>
         </div>
       </div>
-      <section data-w-id="28b40e73-0df3-1c50-a379-8e05017605c0" style={{opacity: 0}} className="section-key">
+      <section data-w-id="28b40e73-0df3-1c50-a379-8e05017605c0" className="section-key">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">Why Choose Tireweb Wheels?</h2>
@@ -38,7 +38,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
           <div className="_15px-gap"></div>
-          <div data-w-id="28b40e73-0df3-1c50-a379-8e05017605c9" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
+          <div data-w-id="28b40e73-0df3-1c50-a379-8e05017605c9" className="key-wraper navy-blue-section-wraper">
             <div className="key-box connection-box chosse-box">
               <div className="_30px-gap"></div><img src="/images/Group-1000003558.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Holistic Solutions</h3>
@@ -88,7 +88,7 @@ export default function Page() {
             </div>
           </div>
           <div className="_30px-gap"></div>
-          <div data-w-id="b5e5396e-7cdf-8f76-a427-a92a9d8cef7c" style={{opacity: 0}} className="key-features-wraper">
+          <div data-w-id="b5e5396e-7cdf-8f76-a427-a92a9d8cef7c" className="key-features-wraper">
             <div className="key-features-image">
               <div className="section-heading">
                 <h2 className="heading-two">Wheel Wholesale</h2>
@@ -96,7 +96,7 @@ export default function Page() {
                   <div className="border-line-icons"></div>
                 </div>
                 <div className="_30px-gap"></div>
-              </div><img src="/images/Graphic-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/Graphic-1-p-500.png 500w, ../images/Graphic-1.png 666w" alt="" className="key-features-icon" />
+              </div><img src="/images/Graphic-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/Graphic-1-p-500.png 500w, /images/Graphic-1.png 666w" alt="" className="key-features-icon" />
               <div className="_30px-gap"></div>
             </div>
             <div className="key-features-text">
@@ -126,7 +126,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div data-w-id="b4c7b1e2-a320-bcfe-1611-1d71e3514425" style={{opacity: 0}} className="key-features-wraper">
+          <div data-w-id="b4c7b1e2-a320-bcfe-1611-1d71e3514425" className="key-features-wraper">
             <div className="key-features-image">
               <div className="section-heading">
                 <h2 className="heading-two">Wheels Retail</h2>
@@ -164,7 +164,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div data-w-id="9e4e2676-a535-b14f-c94a-b309a84bb22d" style={{opacity: 0}} className="key-features-wraper">
+          <div data-w-id="9e4e2676-a535-b14f-c94a-b309a84bb22d" className="key-features-wraper">
             <div className="key-features-image">
               <div className="section-heading">
                 <h2 className="heading-two">Wheels Visualizer (powered by AutoSync)</h2>
@@ -172,7 +172,7 @@ export default function Page() {
                   <div className="border-line-icons"></div>
                 </div>
                 <div className="_30px-gap"></div>
-              </div><img src="/images/OJK8ZS1-2.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/OJK8ZS1-2-p-500.png 500w, ../images/OJK8ZS1-2.png 648w" alt="" className="key-features-icon" />
+              </div><img src="/images/OJK8ZS1-2.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/OJK8ZS1-2-p-500.png 500w, /images/OJK8ZS1-2.png 648w" alt="" className="key-features-icon" />
               <div className="_30px-gap"></div>
             </div>
             <div className="key-features-text">
@@ -234,7 +234,7 @@ export default function Page() {
       </section>
       <section className="section-deep-dive">
         <div className="container">
-          <div data-w-id="ccb027e3-9f77-6877-96a2-d9e9d4a00af6" style={{opacity: 0}} className="deep-dive--wraper">
+          <div data-w-id="ccb027e3-9f77-6877-96a2-d9e9d4a00af6" className="deep-dive--wraper">
             <div className="deep-dive--content">
               <h1 className="heading-one _60px-fonts whiite-text">Deep Dive into Wheel Visualization</h1>
               <div className="_15px-gap"></div>
@@ -244,7 +244,7 @@ export default function Page() {
                 <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="deep-dive--image"><img src="/images/2023_GMC_Hummer-EV_ml_resize_x2-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/2023_GMC_Hummer-EV_ml_resize_x2-1-p-500.png 500w, ../images/2023_GMC_Hummer-EV_ml_resize_x2-1.png 752w" alt="" className="deep-dive--icon" /></div>
+            <div className="deep-dive--image"><img src="/images/2023_GMC_Hummer-EV_ml_resize_x2-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/2023_GMC_Hummer-EV_ml_resize_x2-1-p-500.png 500w, /images/2023_GMC_Hummer-EV_ml_resize_x2-1.png 752w" alt="" className="deep-dive--icon" /></div>
           </div>
         </div>
       </section>

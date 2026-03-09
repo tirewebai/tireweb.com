@@ -34,7 +34,7 @@ export default function Page() {
       canonical="https://www.tireweb.com/integration-partners-hub"
     >
       <div className="main-wraper">
-      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" style={{opacity: 0}} className="sub-baner">
+      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" className="sub-baner">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-one _60px-fonts margain-top-0">Integration Partners Hub</h2>
@@ -44,14 +44,14 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="2f38a59f-6e55-652b-21c8-adb4d9c4fa39" style={{opacity: 0}} className="section-page-content white-page-content">
+      <section data-w-id="2f38a59f-6e55-652b-21c8-adb4d9c4fa39" className="section-page-content white-page-content">
         <div className="container">
           <div className="section-page-content-warper">
             <p className="pargraph-extra-large">The digital age thrives on seamless connectivity. Integrating with Tireweb not only strengthens this interconnected ecosystem but also amplifies the reach and effectiveness of your offerings. As partners in progress, let&#x27;s delve into the myriad opportunities and advantages that come with joining the Tireweb network.</p>
           </div>
         </div>
       </section>
-      <section data-w-id="ef04457d-19b9-842e-1353-aafbe98d6d4e" style={{opacity: 0}} className="section-key navy-blue-section">
+      <section data-w-id="ef04457d-19b9-842e-1353-aafbe98d6d4e" className="section-key navy-blue-section">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">Why Integrate with Tireweb?</h2>
@@ -62,7 +62,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
           <div className="_15px-gap"></div>
-          <div data-w-id="ef04457d-19b9-842e-1353-aafbe98d6d58" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
+          <div data-w-id="ef04457d-19b9-842e-1353-aafbe98d6d58" className="key-wraper navy-blue-section-wraper">
             <div className="key-box connection-box partners-hub-boxes">
               <div className="_30px-gap"></div><img src="/images/Group-1000003586-1.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Unparalleled Dealer Access</h3>

@@ -13,7 +13,7 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tirelibrary</h1>
               <div className="_15px-gap"></div>
@@ -23,11 +23,11 @@ export default function Page() {
                 <div className="primary-button-text">Start Trial</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="baner-wraper-image"><img src="/images/tl-mobile.png" loading="lazy" srcset="/images/tl-mobile-p-500.png 500w, ../images/tl-mobile-p-800.png 800w, ../images/tl-mobile.png 1024w" sizes="(max-width: 479px) 100vw, 400px" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/tl-mobile.png" loading="lazy" srcset="/images/tl-mobile-p-500.png 500w, /images/tl-mobile-p-800.png 800w, /images/tl-mobile.png 1024w" sizes="(max-width: 479px) 100vw, 400px" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
-      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet transparent-section section-gap">
+      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" className="section-repet transparent-section section-gap">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -251,7 +251,7 @@ export default function Page() {
       </section>
       <section className="footer">
         <div className="container">
-          <div className="footer-logo"><img src="/images/Group-390.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.875px, 100vw" srcset="/images/Group-390-p-500.png 500w, ../images/Group-390-p-800.png 800w, ../images/Group-390-p-1080.png 1080w, ../images/Group-390.png 1440w" alt="" /></div>
+          <div className="footer-logo"><img src="/images/Group-390.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.875px, 100vw" srcset="/images/Group-390-p-500.png 500w, /images/Group-390-p-800.png 800w, /images/Group-390-p-1080.png 1080w, /images/Group-390.png 1440w" alt="" /></div>
           <div className="_30px-gap"></div>
           <div className="footer-wraper">
             <div className="footer-box">
@@ -262,7 +262,7 @@ export default function Page() {
                 </div>
                 <div className="_15px-gap"></div>
               </div>
-              <a href="/mailto:sales@tireweb.com" className="conatct-information w-inline-block"><img src="/images/fluent_mail-32-regular.svg" loading="lazy" alt="" className="information-icon" />
+              <a href="mailto:sales@tireweb.com" className="conatct-information w-inline-block"><img src="/images/fluent_mail-32-regular.svg" loading="lazy" alt="" className="information-icon" />
                 <div className="information-text">sales@tireweb.com</div>
               </a>
               <div className="_15px-gap"></div>

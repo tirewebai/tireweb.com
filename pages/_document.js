@@ -19,6 +19,16 @@ export default function Document() {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-7YC4LPRHS1"
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-7YC4LPRHS1');
+            `,
+          }}
+        />
       </Head>
       <body className="body">
         <Main />

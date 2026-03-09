@@ -13,8 +13,8 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/65980-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/65980-1-p-500.png 500w, ../images/65980-1.png 749w" alt="" className="baner-wraper-icon" /></div>
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
+            <div className="baner-wraper-image"><img src="/images/65980-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/65980-1-p-500.png 500w, /images/65980-1.png 749w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Manufacturer</h1>
               <div className="_15px-gap"></div>
@@ -34,7 +34,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1.svg" loading="lazy" alt="" className="repet-wraper-iamge-icon" /></div>
@@ -52,7 +52,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">

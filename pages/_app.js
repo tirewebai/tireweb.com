@@ -3,30 +3,13 @@ import { useRouter } from 'next/router';
 import Script from 'next/script';
 import '../styles/globals.css';
 
-function revealHiddenElements() {
-  // Webflow sets opacity:0 via inline styles for scroll animations.
-  // Since we're not running the full Webflow animation engine, reveal them all.
-  document.querySelectorAll('[data-w-id]').forEach((el) => {
-    if (el.style.opacity === '0') {
-      el.style.opacity = '1';
-      el.style.transition = 'opacity 0.5s ease';
-    }
-  });
-}
-
 export default function App({ Component, pageProps }) {
   const router = useRouter();
 
-  // Reveal hidden elements on first load
-  useEffect(() => {
-    revealHiddenElements();
-  }, []);
-
-  // Reinitialize Webflow + reveal elements on every route change
+  // Reinitialize Webflow + slick carousel on every route change
   useEffect(() => {
     const handleRouteChange = () => {
       setTimeout(() => {
-        revealHiddenElements();
         // Reinitialize Webflow interactions if available
         if (typeof window !== 'undefined' && window.Webflow) {
           try {
@@ -76,7 +59,7 @@ export default function App({ Component, pageProps }) {
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       />
 
-      {/* Slick carousel CSS */}
+      {/* Slick carousel JS */}
       <Script
         src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
         strategy="afterInteractive"
@@ -86,9 +69,6 @@ export default function App({ Component, pageProps }) {
       <Script
         src="/js/webflow.js"
         strategy="afterInteractive"
-        onLoad={() => {
-          revealHiddenElements();
-        }}
       />
 
       {/* Slick carousel init */}

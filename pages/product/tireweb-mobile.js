@@ -13,7 +13,7 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Mobile for Wholesalers</h1>
               <div className="_15px-gap"></div>
@@ -23,14 +23,14 @@ export default function Page() {
                 <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="baner-wraper-image"><img src="/images/OWINJ41-1.png" loading="lazy" sizes="(max-width: 914px) 100vw, 914px" srcset="/images/OWINJ41-1-p-500.png 500w, ../images/OWINJ41-1-p-800.png 800w, ../images/OWINJ41-1.png 914w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/OWINJ41-1.png" loading="lazy" sizes="(max-width: 914px) 100vw, 914px" srcset="/images/OWINJ41-1-p-500.png 500w, /images/OWINJ41-1-p-800.png 800w, /images/OWINJ41-1.png 914w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
-      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/iStock-1488880393-1.jpg" loading="lazy" sizes="(max-width: 4096px) 100vw, 4096px" srcset="/images/iStock-1488880393-1-p-500.jpg 500w, ../images/iStock-1488880393-1-p-800.jpg 800w, ../images/iStock-1488880393-1-p-1080.jpg 1080w, ../images/iStock-1488880393-1-p-1600.jpg 1600w, ../images/iStock-1488880393-1-p-2000.jpg 2000w, ../images/iStock-1488880393-1-p-2600.jpg 2600w, ../images/iStock-1488880393-1-p-3200.jpg 3200w, ../images/iStock-1488880393-1.jpg 4096w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/iStock-1488880393-1.jpg" loading="lazy" sizes="(max-width: 4096px) 100vw, 4096px" srcset="/images/iStock-1488880393-1-p-500.jpg 500w, /images/iStock-1488880393-1-p-800.jpg 800w, /images/iStock-1488880393-1-p-1080.jpg 1080w, /images/iStock-1488880393-1-p-1600.jpg 1600w, /images/iStock-1488880393-1-p-2000.jpg 2000w, /images/iStock-1488880393-1-p-2600.jpg 2600w, /images/iStock-1488880393-1-p-3200.jpg 3200w, /images/iStock-1488880393-1.jpg 4096w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">About Tireweb Mobile</h2>
@@ -45,7 +45,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="f45b78ca-8a21-fdb6-45e5-76a1c20e3e01" style={{opacity: 0}} className="section-key navy-blue-section">
+      <section data-w-id="f45b78ca-8a21-fdb6-45e5-76a1c20e3e01" className="section-key navy-blue-section">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">Dealer App Features</h2>
@@ -55,7 +55,7 @@ export default function Page() {
             </div>
           </div>
           <div className="_15px-gap"></div>
-          <div data-w-id="f45b78ca-8a21-fdb6-45e5-76a1c20e3e0a" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
+          <div data-w-id="f45b78ca-8a21-fdb6-45e5-76a1c20e3e0a" className="key-wraper navy-blue-section-wraper">
             <div className="key-box canter-algin white-box">
               <h3 className="heading-three">Your Brand, Your App</h3>
               <div className="_10px-gap"></div>
@@ -123,7 +123,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="196eb5e2-4ad3-2107-2c88-c9a7373d0fe4" style={{opacity: 0}} className="section-key section-staff">
+      <section data-w-id="196eb5e2-4ad3-2107-2c88-c9a7373d0fe4" className="section-key section-staff">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">Team App Features (coming Q2, 2025)</h2>
@@ -133,7 +133,7 @@ export default function Page() {
             </div>
           </div>
           <div className="_15px-gap"></div>
-          <div data-w-id="196eb5e2-4ad3-2107-2c88-c9a7373d0fed" style={{opacity: 0}} className="key-wraper">
+          <div data-w-id="196eb5e2-4ad3-2107-2c88-c9a7373d0fed" className="key-wraper">
             <div className="key-box _50--box-copy">
               <h3 className="heading-three">Salesperson&#x27;s Companion</h3>
               <div className="_10px-gap"></div>
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="section-app">
         <div className="container">
           <div className="app-wraper">
-            <div className="app-immge-box"><img src="/images/Group-1000003553.png" loading="lazy" sizes="(max-width: 828px) 100vw, 828px" srcset="/images/Group-1000003553-p-500.png 500w, ../images/Group-1000003553-p-800.png 800w, ../images/Group-1000003553.png 828w" alt="" className="app-image-icons" /></div>
+            <div className="app-immge-box"><img src="/images/Group-1000003553.png" loading="lazy" sizes="(max-width: 828px) 100vw, 828px" srcset="/images/Group-1000003553-p-500.png 500w, /images/Group-1000003553-p-800.png 800w, /images/Group-1000003553.png 828w" alt="" className="app-image-icons" /></div>
             <div className="app-content">
               <div className="section-heading">
                 <h2 className="heading-two">Download Our Demo App</h2>

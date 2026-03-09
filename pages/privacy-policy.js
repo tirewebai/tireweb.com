@@ -11,7 +11,7 @@ export default function Page() {
       canonical="https://www.tireweb.com/privacy-policy"
     >
       <div className="main-wraper">
-      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" style={{opacity: 0}} className="sub-baner terms-use-baner">
+      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" className="sub-baner terms-use-baner">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-one _60px-fonts margain-top-0">PRIVACY POLICY</h2>
@@ -33,7 +33,7 @@ export default function Page() {
             <div className="_10px-gap"></div>
             <div className="terms-box">
               <div className="frunt-heading">
-                <div className="terms-text">Your privacy is very important to us. For that reason, please read the following details carefully and get in contact with us if you have any questions. You can contact us on: <a href="/mailto:privacy@esprofessionals.com" className="link-2">privacy@esprofessionals.com</a>.</div>
+                <div className="terms-text">Your privacy is very important to us. For that reason, please read the following details carefully and get in contact with us if you have any questions. You can contact us on: <a href="mailto:privacy@esprofessionals.com" className="link-2">privacy@esprofessionals.com</a>.</div>
               </div>
             </div>
           </div>

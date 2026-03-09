@@ -13,8 +13,8 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/pngwing-1.png" loading="lazy" sizes="(max-width: 812px) 100vw, 812px" srcset="/images/pngwing-1-p-500.png 500w, images/pngwing-1-p-800.png 800w, images/pngwing-1.png 812w" alt="" className="baner-wraper-icon" /></div>
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
+            <div className="baner-wraper-image"><img src="/images/pngwing-1.png" loading="lazy" sizes="(max-width: 812px) 100vw, 812px" srcset="/images/pngwing-1-p-500.png 500w, /images/pngwing-1-p-800.png 800w, /images/pngwing-1.png 812w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts font-size--reduceds">Join Our Tireweb Family</h1>
               <div className="_15px-gap"></div>
@@ -29,7 +29,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="20f51b66-ec44-0379-51c3-1c51de3717c8" style={{opacity: 0}} className="section-key">
+      <section data-w-id="20f51b66-ec44-0379-51c3-1c51de3717c8" className="section-key">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">Why Work For Us?</h2>
@@ -40,7 +40,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
           <div className="_15px-gap"></div>
-          <div data-w-id="20f51b66-ec44-0379-51c3-1c51de3717d2" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
+          <div data-w-id="20f51b66-ec44-0379-51c3-1c51de3717d2" className="key-wraper navy-blue-section-wraper">
             <div className="key-box connection-box">
               <div className="_30px-gap"></div><img src="/images/Group-1000003567.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Industry Impact</h3>
@@ -90,7 +90,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet open-position">
+      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" className="section-repet open-position">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -107,13 +107,13 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2771.jpg" loading="lazy" sizes="(max-width: 701px) 100vw, 701px" srcset="/images/Rectangle-2771-p-500.jpg 500w, images/Rectangle-2771.jpg 701w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2771.jpg" loading="lazy" sizes="(max-width: 701px) 100vw, 701px" srcset="/images/Rectangle-2771-p-500.jpg 500w, /images/Rectangle-2771.jpg 701w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
       <section className="section-why-tireweb transparent-section">
         <div className="container">
-          <div data-w-id="091924e9-cbaa-aaff-093d-f471ad42402b" style={{opacity: 0}} className="blue-background">
+          <div data-w-id="091924e9-cbaa-aaff-093d-f471ad42402b" className="blue-background">
             <div className="section-heading canter-heading samll-width">
               <h2 className="heading-two white-color-text">Express Your Interest</h2>
               <div className="_10px-gap"></div>
@@ -123,7 +123,7 @@ export default function Page() {
               <div className="_10px-gap"></div>
               <p className="pargraph-medium white-color-text">If you&#x27;re enthusiastic about being a part of our journey, don&#x27;t wait for a specific listing. Reach out, tell us about yourself, and let us know how you can contribute to our shared success.</p>
               <div className="_30px-gap"></div>
-              <a href="/mailto:careers@tireweb.com" className="w-inline-block"><img src="/images/Group-1000003500.png" loading="lazy" alt="" className="image-7" /></a>
+              <a href="mailto:careers@tireweb.com" className="w-inline-block"><img src="/images/Group-1000003500.png" loading="lazy" alt="" className="image-7" /></a>
             </div>
           </div>
         </div>

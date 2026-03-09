@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 
-import { useEffect } from 'react';
 
 export default function Page() {
 
@@ -36,13 +35,13 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts"><strong>See Tireweb in Action</strong></h1>
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Discover how Tireweb’s digital solutions can help you sell more tires and wheels. Book a personalized demo with our team and see how our ecommerce and data tools can transform your business.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/1643-1_1.png" loading="lazy" sizes="(max-width: 708px) 100vw, 708px" srcset="/images/1643-1_1-p-500.png 500w, images/1643-1_1.png 708w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/1643-1_1.png" loading="lazy" sizes="(max-width: 708px) 100vw, 708px" srcset="/images/1643-1_1-p-500.png 500w, /images/1643-1_1.png 708w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -61,7 +60,7 @@ export default function Page() {
               </div>
               <div className="_30px-gap"></div>
               <div className="w-form">
-                <form id="wf-form-Request-Demo---Contact-Form" onSubmit={handleSubmit} name="wf-form-Request-Demo---Contact-Form" data-name="Request Demo - Contact Form" id="contact-form" onSubmit="{handleSubmit}">
+                <form id="wf-form-Request-Demo---Contact-Form" onSubmit={handleSubmit} name="wf-form-Request-Demo---Contact-Form" data-name="Request Demo - Contact Form" >
                   <div className="form-row sheaduel-demo-form">
                     <div className="form-wraper"><input className="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Name*" type="text" id="name" required /><input className="input w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company*" type="text" id="Company" required /></div>
                     <div className="form-wraper"><input className="input w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number*" type="tel" id="Phone-Number" /><input className="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email*" type="email" id="Email" required /></div>
@@ -77,7 +76,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="client-conatct-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 670px) 100vw, 670px" srcset="/images/wheel-visualizer-1-p-500.png 500w, images/wheel-visualizer-1.png 670w" alt="" /></div>
+            <div className="client-conatct-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 670px) 100vw, 670px" srcset="/images/wheel-visualizer-1-p-500.png 500w, /images/wheel-visualizer-1.png 670w" alt="" /></div>
           </div>
         </div>
       </section>

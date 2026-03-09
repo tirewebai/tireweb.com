@@ -11,7 +11,7 @@ export default function Page() {
       canonical="https://www.tireweb.com/terms-of-use"
     >
       <div className="main-wraper">
-      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" style={{opacity: 0}} className="sub-baner terms-use-baner">
+      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" className="sub-baner terms-use-baner">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-one _60px-fonts margain-top-0">TERMS OF USE</h2>

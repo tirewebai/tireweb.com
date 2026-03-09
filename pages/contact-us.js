@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 
-import { useEffect } from 'react';
 
 export default function Page() {
 
@@ -36,17 +35,17 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Let&#x27;s Connect!</h1>
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Your Questions, Suggestions, and Feedback Matter.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Mask-group-p-500.jpg 500w, images/Mask-group.jpg 675w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Mask-group-p-500.jpg 500w, /images/Mask-group.jpg 675w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
-      <section data-w-id="27644970-7da6-a026-1cec-157d4c043226" style={{opacity: 0}} className="section-contact contact-us">
+      <section data-w-id="27644970-7da6-a026-1cec-157d4c043226" className="section-contact contact-us">
         <div className="container">
           <div className="conatct-wraper">
             <div className="contact-form">
@@ -61,7 +60,7 @@ export default function Page() {
               </div>
               <div className="_30px-gap"></div>
               <div className="w-form">
-                <form id="wf-form-Contact-page---Contact-Form" onSubmit={handleSubmit} name="wf-form-Contact-page---Contact-Form" data-name="Contact page - Contact Form" id="contact-form" onSubmit="{handleSubmit}">
+                <form id="wf-form-Contact-page---Contact-Form" onSubmit={handleSubmit} name="wf-form-Contact-page---Contact-Form" data-name="Contact page - Contact Form" >
                   <div className="form-row">
                     <div className="form-wraper"><input className="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Name*" type="text" id="name" required /><input className="input w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company*" type="text" id="Company" required /></div>
                     <div className="form-wraper"><input className="input w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number*" type="tel" id="Phone-Number" /><input className="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email*" type="email" id="Email" required /></div>
@@ -76,11 +75,11 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="client-conatct-image"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 47vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, images/Rectangle-2753-2.jpg 750w" alt="" /></div>
+            <div className="client-conatct-image"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 47vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, /images/Rectangle-2753-2.jpg 750w" alt="" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="09b0a245-5a93-9223-09b5-1a92d5e88490" style={{opacity: 0}} className="follow-us">
+      <section data-w-id="09b0a245-5a93-9223-09b5-1a92d5e88490" className="follow-us">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-two">Follow Us On</h2>

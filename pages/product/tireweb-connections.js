@@ -13,8 +13,8 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/pngegg-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="/images/pngegg-3-p-500.png 500w, ../images/pngegg-3.png 770w" alt="" className="baner-wraper-icon" /></div>
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
+            <div className="baner-wraper-image"><img src="/images/pngegg-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="/images/pngegg-3-p-500.png 500w, /images/pngegg-3.png 770w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Connections</h1>
               <div className="_15px-gap"></div>
@@ -27,7 +27,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -35,11 +35,11 @@ export default function Page() {
                 <p className="pargraph-extra-large">Step into Tireweb Connections, your key to unlocking seamless integrations in the tire industry. With our advanced APIs and comprehensive support for data formats, we offer developers the flexibility and power to build superior solutions tailored to diverse requirements.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.96875px" srcset="/images/1643-1-p-500.png 500w, ../images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.96875px" srcset="/images/1643-1-p-500.png 500w, /images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="28b40e73-0df3-1c50-a379-8e05017605c0" style={{opacity: 0}} className="section-key navy-blue-section">
+      <section data-w-id="28b40e73-0df3-1c50-a379-8e05017605c0" className="section-key navy-blue-section">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">Why Tireweb Connections?</h2>
@@ -50,7 +50,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
           <div className="_15px-gap"></div>
-          <div data-w-id="28b40e73-0df3-1c50-a379-8e05017605c9" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
+          <div data-w-id="28b40e73-0df3-1c50-a379-8e05017605c9" className="key-wraper navy-blue-section-wraper">
             <div className="key-box connection-box">
               <div className="_30px-gap"></div><img src="/images/Group-1000003583.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Flexibility in Choice</h3>
@@ -124,7 +124,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="b116b9a6-a531-3dd1-81d1-ef62c5f7be73" style={{opacity: 0}} className="section-wholesale">
+      <section data-w-id="b116b9a6-a531-3dd1-81d1-ef62c5f7be73" className="section-wholesale">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-two white-color-text">Tireweb Connections Partner POS Systems</h2>
@@ -139,7 +139,7 @@ export default function Page() {
           <div className="wholesale-wraper"><img src="/images/svg-1.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/images/Logo-White-Transparent.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/images/Layer-2.png" loading="lazy" alt="" className="wholesale-image-icon" /></div>
         </div>
       </section>
-      <section data-w-id="021561b2-b26f-2075-c718-c320fc0344a5" style={{opacity: 0}} className="section-repet transparent--section for-developers">
+      <section data-w-id="021561b2-b26f-2075-c718-c320fc0344a5" className="section-repet transparent--section for-developers">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -157,7 +157,7 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="/images/Tireweb-Wholesale-1-p-500.jpg 500w, ../images/Tireweb-Wholesale-1.jpg 743w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="/images/Tireweb-Wholesale-1-p-500.jpg 500w, /images/Tireweb-Wholesale-1.jpg 743w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>

@@ -13,13 +13,13 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb PPC &amp; Shopping Ad Campaigns: Powering Tire Dealers&#x27; Digital Success</h1>
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Fueling Your Digital Growth with Precision-Targeted PPC &amp; Shopping Ad Campaigns.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Group-206-1-p-500.png 500w, images/Group-206-1.png 559w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Group-206-1-p-500.png 500w, /images/Group-206-1.png 559w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="b925955f-1068-b48e-05c2-27c578b4e089" style={{opacity: 0}} className="section-support">
+      <section data-w-id="b925955f-1068-b48e-05c2-27c578b4e089" className="section-support">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-two">Why Trust Tireweb for Your PPC &amp; Shopping Ad Campaigns?</h2>
@@ -40,7 +40,7 @@ export default function Page() {
             </div>
             <div className="_30px-gap"></div>
           </div>
-          <div data-w-id="b925955f-1068-b48e-05c2-27c578b4e092" style={{opacity: 0}} className="resources-wraper beings-wraper">
+          <div data-w-id="b925955f-1068-b48e-05c2-27c578b4e092" className="resources-wraper beings-wraper">
             <div className="wraper-box box-services brings-box why-tust-box">
               <div className="product-wraper-box-inner-row">
                 <div className="product-wraper-box-inner-row-content">
@@ -163,14 +163,14 @@ export default function Page() {
                 </nav>
               </div>
             </div>
-            <div className="tireweb-library-image"><img src="/images/wheel-visualizer-1_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 676px) 93vw, (max-width: 767px) 629px, (max-width: 1279px) 43vw, (max-width: 1919px) 40vw, 629px" srcset="/images/wheel-visualizer-1_1-p-500.png 500w, images/wheel-visualizer-1_1.png 629w" alt="" className="tireweb-library-icon" /></div>
+            <div className="tireweb-library-image"><img src="/images/wheel-visualizer-1_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 676px) 93vw, (max-width: 767px) 629px, (max-width: 1279px) 43vw, (max-width: 1919px) 40vw, 629px" srcset="/images/wheel-visualizer-1_1-p-500.png 500w, /images/wheel-visualizer-1_1.png 629w" alt="" className="tireweb-library-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753_1-p-500.png 500w, images/Rectangle-2753_1.png 750w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753_1-p-500.png 500w, /images/Rectangle-2753_1.png 750w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Tailored for Tire Dealers</h2>

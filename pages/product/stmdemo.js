@@ -13,8 +13,8 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, ../images/tireweb-tiresearch-home.png 702w" alt="" className="baner-wraper-icon" /></div>
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
+            <div className="baner-wraper-image"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, /images/tireweb-tiresearch-home.png 702w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb TireSearch</h1>
               <div className="_15px-gap"></div>
@@ -66,7 +66,7 @@ export default function Page() {
         </div>
       </div>
     </div>
-            <Script src="<https://tireflow.ezytire.com/237/2/Script/Client.js>" strategy="afterInteractive" />
+            <Script src="https://tireflow.ezytire.com/237/2/Script/Client.js" strategy="afterInteractive" />
     </Layout>
   );
 }

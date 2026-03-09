@@ -11,7 +11,7 @@ export default function Page() {
       canonical="https://www.tireweb.com/developers"
     >
       <div className="main-wraper">
-      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" style={{opacity: 0}} className="sub-baner">
+      <section data-w-id="7acfddc6-6a10-5b18-b749-9fd72fc61779" className="sub-baner">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-one _60px-fonts margain-top-0">Developers&#x27; Hub: Collaborating for a More Connected Future</h2>
@@ -21,14 +21,14 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="2f38a59f-6e55-652b-21c8-adb4d9c4fa39" style={{opacity: 0}} className="section-page-content">
+      <section data-w-id="2f38a59f-6e55-652b-21c8-adb4d9c4fa39" className="section-page-content">
         <div className="container">
           <div className="section-page-content-warper">
             <p className="pargraph-extra-large">In the ever-evolving landscape of the tire industry, it&#x27;s the innovative solutions that pave the way. At Tireweb, we recognize the power of collaboration and the creativity of developers. By partnering with third-party developers, we combine our industry expertise with cutting-edge tech solutions to address challenges head-on.</p>
           </div>
         </div>
       </section>
-      <section data-w-id="d566d73e-0a29-4ee4-f33a-44d38c24601e" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="d566d73e-0a29-4ee4-f33a-44d38c24601e" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -73,14 +73,14 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/1643-1-p-500.png 500w, images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/1643-1-p-500.png 500w, /images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="5a7a14ad-6203-9dc1-1729-0c5fa68b5ed0" style={{opacity: 0}} className="section-repet">
+      <section data-w-id="5a7a14ad-6203-9dc1-1729-0c5fa68b5ed0" className="section-repet">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, images/tireweb-tiresearch-home.png 702w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, /images/tireweb-tiresearch-home.png 702w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">TireSearch by Tireweb</h2>
@@ -126,7 +126,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="77e4d7e0-3bff-fb22-9fba-426b677138fe" style={{opacity: 0}} className="section-repet transparent--section top-gap">
+      <section data-w-id="77e4d7e0-3bff-fb22-9fba-426b677138fe" className="section-repet transparent--section top-gap">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -171,12 +171,12 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tirelibrary-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tirelibrary-1-p-500.png 500w, images/tirelibrary-1-p-800.png 800w, images/tirelibrary-1.png 928w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tirelibrary-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tirelibrary-1-p-500.png 500w, /images/tirelibrary-1-p-800.png 800w, /images/tirelibrary-1.png 928w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
       <section className="section">
-        <div data-w-id="85df190c-bc15-edfc-4e23-93866c84ed33" style={{opacity: 0}} className="integrated blue-background">
+        <div data-w-id="85df190c-bc15-edfc-4e23-93866c84ed33" className="integrated blue-background">
           <div className="section-heading canter-heading">
             <h2 className="heading-two white-color-text">Let&#x27;s Innovate Together</h2>
             <div className="_10px-gap"></div>

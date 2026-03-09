@@ -13,16 +13,16 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Elevate Your Digital Strategy with Tireweb</h1>
               <div className="_15px-gap"></div>
             </div>
-            <div className="baner-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Group-206-1-p-500.png 500w, images/Group-206-1.png 559w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Group-206-1-p-500.png 500w, /images/Group-206-1.png 559w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
-      <section data-w-id="47599dd6-b9e7-cac4-a831-777c672a803d" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="47599dd6-b9e7-cac4-a831-777c672a803d" className="section-repet transparent--section">
         <div className="_30px-gap"></div>
         <div className="container">
           <div className="repet-wraper">
@@ -37,11 +37,11 @@ export default function Page() {
                 <p className="pargraph-medium">In the nexus of marketing and technology, Tireweb stands out, delivering technical solutions that power sophisticated marketing strategies. Our foundation is built on deep technical knowledge, allowing us to provide unparalleled support for complex marketing initiatives.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-p-500.png 500w, images/Rectangle-2753.png 750w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-p-500.png 500w, /images/Rectangle-2753.png 750w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="5b1e1862-25a0-9411-e3cf-9799c1aea641" style={{opacity: 0}} className="section-support brings">
+      <section data-w-id="5b1e1862-25a0-9411-e3cf-9799c1aea641" className="section-support brings">
         <div className="container">
           <div className="section-heading">
             <h2 className="heading-two">What Tireweb Brings to the Table</h2>
@@ -51,7 +51,7 @@ export default function Page() {
             </div>
             <div className="_30px-gap"></div>
           </div>
-          <div data-w-id="5b1e1862-25a0-9411-e3cf-9799c1aea64a" style={{opacity: 0}} className="resources-wraper beings-wraper">
+          <div data-w-id="5b1e1862-25a0-9411-e3cf-9799c1aea64a" className="resources-wraper beings-wraper">
             <div className="wraper-box box-services brings-box">
               <div className="product-wraper-box-inner-row">
                 <div className="product-wraper-box-inner-row-content">
@@ -107,7 +107,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="b08b8096-23cc-d392-2e21-e8236c611380" style={{opacity: 0}} className="section-maximize">
+      <section data-w-id="b08b8096-23cc-d392-2e21-e8236c611380" className="section-maximize">
         <div className="container">
           <div className="section-heading canter-heading">
             <h2 className="heading-two-2">Maximize Your Online Reach with Targeted Google Ads Campaigns</h2>
@@ -124,12 +124,12 @@ export default function Page() {
           </div>
         </div>
         <div className="_30px-gap hide"></div>
-        <div className="maximize-wraper"><img src="/images/image_2023_10_20T03_40_29_024Z.png" loading="lazy" sizes="(max-width: 479px) 90vw, 85vw" srcset="/images/image_2023_10_20T03_40_29_024Z-p-500.png 500w, images/image_2023_10_20T03_40_29_024Z-p-800.png 800w, images/image_2023_10_20T03_40_29_024Z-p-1080.png 1080w, images/image_2023_10_20T03_40_29_024Z.png 1157w" alt="" className="image-6" /></div>
+        <div className="maximize-wraper"><img src="/images/image_2023_10_20T03_40_29_024Z.png" loading="lazy" sizes="(max-width: 479px) 90vw, 85vw" srcset="/images/image_2023_10_20T03_40_29_024Z-p-500.png 500w, /images/image_2023_10_20T03_40_29_024Z-p-800.png 800w, /images/image_2023_10_20T03_40_29_024Z-p-1080.png 1080w, /images/image_2023_10_20T03_40_29_024Z.png 1157w" alt="" className="image-6" /></div>
       </section>
-      <section data-w-id="b3607e03-e9ae-f9d1-853b-aa556c18362a" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="b3607e03-e9ae-f9d1-853b-aa556c18362a" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Mask-group-p-500.jpg 500w, images/Mask-group.jpg 675w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Mask-group-p-500.jpg 500w, /images/Mask-group.jpg 675w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Your Dedicated Team</h2>
@@ -144,7 +144,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="c9f1c6d3-8d2c-6083-630a-27d8d40d373a" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="c9f1c6d3-8d2c-6083-630a-27d8d40d373a" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -158,14 +158,14 @@ export default function Page() {
                 <p className="pargraph-medium">We believe that true success in the digital arena stems from collaboration. Tireweb actively seeks to partner with agencies and our clients own internal marketing teams, bringing our technical expertise to complement and enhance broader marketing strategies. Together, we can build campaigns that resonate, engage, and convert.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-1-p-500.jpg 500w, images/Rectangle-2753-1.jpg 751w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-1-p-500.jpg 500w, /images/Rectangle-2753-1.jpg 751w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="3e1674fc-24e9-3e99-8889-605578a38d03" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="3e1674fc-24e9-3e99-8889-605578a38d03" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, images/Rectangle-2753-2.jpg 750w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, /images/Rectangle-2753-2.jpg 750w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Work with Tireweb</h2>

@@ -13,7 +13,7 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
             <div className="baner-wraper-image"><img src="/images/tireweb-circle-400x400.png" loading="lazy" width="Auto" height="Auto" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts"><strong>Celebrating 25 Years of Powering the Tire Industry</strong></h1>
@@ -23,7 +23,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -37,14 +37,14 @@ export default function Page() {
                 <p className="pargraph-medium">Tireweb started in 2000 as E-Solution Professionals with one goal: to help the tire industry grow through smart, reliable technology. Over the years, we’ve built tools that connect dealers, distributors, and manufacturers, making it easier for businesses to sell more tires and wheels and serve their customers better.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1_1.jpg" loading="lazy" sizes="(max-width: 727px) 100vw, 727px" srcset="/images/Tireweb-Wholesale-1_1-p-500.jpg 500w, images/Tireweb-Wholesale-1_1.jpg 727w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1_1.jpg" loading="lazy" sizes="(max-width: 727px) 100vw, 727px" srcset="/images/Tireweb-Wholesale-1_1-p-500.jpg 500w, /images/Tireweb-Wholesale-1_1.jpg 727w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet margain-added-bottom">
+      <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" className="section-repet margain-added-bottom">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 675px) 100vw, 675px" srcset="/images/Mask-group-p-500.jpg 500w, images/Mask-group.jpg 675w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 675px) 100vw, 675px" srcset="/images/Mask-group-p-500.jpg 500w, /images/Mask-group.jpg 675w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Our Mission and Vision</h2>
@@ -59,7 +59,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="0d2aa2d6-36ef-6906-72d4-a0233affcb97" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="0d2aa2d6-36ef-6906-72d4-a0233affcb97" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -73,14 +73,14 @@ export default function Page() {
                 <p className="pargraph-medium">Many members of our team come from the tire and wheel industry. We understand the challenges, the pace, and the importance of getting it right. That’s why we design every solution with real-world experience and a practical understanding of how the industry works.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/image-103.jpg" loading="lazy" sizes="(max-width: 727px) 100vw, 727px" srcset="/images/image-103-p-500.jpg 500w, images/image-103.jpg 727w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/image-103.jpg" loading="lazy" sizes="(max-width: 727px) 100vw, 727px" srcset="/images/image-103-p-500.jpg 500w, /images/image-103.jpg 727w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
-      <section data-w-id="7d9b11bb-5f40-6326-5f99-5387e0b10453" style={{opacity: 0}} className="section-repet margain-added-bottom">
+      <section data-w-id="7d9b11bb-5f40-6326-5f99-5387e0b10453" className="section-repet margain-added-bottom">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Graphic-1.png" loading="lazy" sizes="(max-width: 666px) 100vw, 666px" srcset="/images/Graphic-1-p-500.png 500w, images/Graphic-1.png 666w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Graphic-1.png" loading="lazy" sizes="(max-width: 666px) 100vw, 666px" srcset="/images/Graphic-1-p-500.png 500w, /images/Graphic-1.png 666w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Global Reach, Local Support</h2>
@@ -95,7 +95,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="ce71d90e-24c3-9d89-1cd6-43d644400484" style={{opacity: 0}} className="section-repet transparent--section">
+      <section data-w-id="ce71d90e-24c3-9d89-1cd6-43d644400484" className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -113,7 +113,7 @@ export default function Page() {
                 <div className="primary-button-text">Contact Us</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 750px) 100vw, 750px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, images/Rectangle-2753-2.jpg 750w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 750px) 100vw, 750px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, /images/Rectangle-2753-2.jpg 750w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
         <div className="_30px-gap"></div>

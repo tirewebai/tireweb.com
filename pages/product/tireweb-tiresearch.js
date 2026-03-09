@@ -13,8 +13,8 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 702px) 100vw, 702px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, ../images/tireweb-tiresearch-home.png 702w" alt="" className="baner-wraper-icon" /></div>
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
+            <div className="baner-wraper-image"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 702px) 100vw, 702px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, /images/tireweb-tiresearch-home.png 702w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts"><strong>Transform Your Website into a Tire Store with TireSearch</strong></h1>
               <div className="_15px-gap"></div>

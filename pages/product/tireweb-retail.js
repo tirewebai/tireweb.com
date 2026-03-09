@@ -13,8 +13,8 @@ export default function Page() {
       <div className="main-wraper">
       <div className="baner">
         <div className="container">
-          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/tablet.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tablet-p-500.png 500w, ../images/tablet-p-800.png 800w, ../images/tablet-p-1080.png 1080w, ../images/tablet-p-1600.png 1600w, ../images/tablet.png 2000w" alt="" className="baner-wraper-icon" /></div>
+          <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" className="baner-wraper">
+            <div className="baner-wraper-image"><img src="/images/tablet.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tablet-p-500.png 500w, /images/tablet-p-800.png 800w, /images/tablet-p-1080.png 1080w, /images/tablet-p-1600.png 1600w, /images/tablet.png 2000w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Retail</h1>
               <div className="_15px-gap"></div>
@@ -44,20 +44,20 @@ export default function Page() {
           <div className="_30px-gap"></div>
         </div>
         <div className="chose-slider">
-          <a href="https://www.tireoutlet.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-tireoutlet02.png" loading="lazy" sizes="24vw" srcset="/images/gal-tireoutlet02-p-500.png 500w, ../images/gal-tireoutlet02.png 800w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.glenstyres.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/glens.png" loading="lazy" sizes="24vw" srcset="/images/glens-p-500.png 500w, ../images/glens.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.purcelltire.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/purcell.png" loading="lazy" sizes="24vw" srcset="/images/purcell-p-500.png 500w, ../images/purcell.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.treadsnmore.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/local.png" loading="lazy" sizes="24vw" srcset="/images/local-p-500.png 500w, ../images/local.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.tiremall.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-tiremall.png" loading="lazy" sizes="24vw" srcset="/images/gal-tiremall-p-500.png 500w, ../images/gal-tiremall.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.lexbrodies.com/shop-for-tires" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-lexbro.png" loading="lazy" sizes="24vw" srcset="/images/gal-lexbro-p-500.png 500w, ../images/gal-lexbro.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://youngstedts.com/tires-wheels/shop-for-tires/" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gallery-youngstedts.png" loading="lazy" sizes="24vw" srcset="/images/gallery-youngstedts-p-500.png 500w, ../images/gallery-youngstedts.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.expressoil.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gallery-expressoil.png" loading="lazy" sizes="24vw" srcset="/images/gallery-expressoil-p-500.png 500w, ../images/gallery-expressoil.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.grahamtire.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gallery-graham.png" loading="lazy" sizes="24vw" srcset="/images/gallery-graham-p-500.png 500w, ../images/gallery-graham.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.farmtirewarehouse.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-farmtire.png" loading="lazy" sizes="24vw" srcset="/images/gal-farmtire-p-500.png 500w, ../images/gal-farmtire.png 645w" alt="" className="chose-slide-icon" /></a>
-          <a href="https://www.discounttirecenters.com/" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/discount.png" loading="lazy" sizes="24vw" srcset="/images/discount-p-500.png 500w, ../images/discount.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.tireoutlet.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-tireoutlet02.png" loading="lazy" sizes="24vw" srcset="/images/gal-tireoutlet02-p-500.png 500w, /images/gal-tireoutlet02.png 800w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.glenstyres.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/glens.png" loading="lazy" sizes="24vw" srcset="/images/glens-p-500.png 500w, /images/glens.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.purcelltire.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/purcell.png" loading="lazy" sizes="24vw" srcset="/images/purcell-p-500.png 500w, /images/purcell.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.treadsnmore.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/local.png" loading="lazy" sizes="24vw" srcset="/images/local-p-500.png 500w, /images/local.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.tiremall.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-tiremall.png" loading="lazy" sizes="24vw" srcset="/images/gal-tiremall-p-500.png 500w, /images/gal-tiremall.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.lexbrodies.com/shop-for-tires" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-lexbro.png" loading="lazy" sizes="24vw" srcset="/images/gal-lexbro-p-500.png 500w, /images/gal-lexbro.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://youngstedts.com/tires-wheels/shop-for-tires/" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gallery-youngstedts.png" loading="lazy" sizes="24vw" srcset="/images/gallery-youngstedts-p-500.png 500w, /images/gallery-youngstedts.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.expressoil.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gallery-expressoil.png" loading="lazy" sizes="24vw" srcset="/images/gallery-expressoil-p-500.png 500w, /images/gallery-expressoil.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.grahamtire.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gallery-graham.png" loading="lazy" sizes="24vw" srcset="/images/gallery-graham-p-500.png 500w, /images/gallery-graham.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.farmtirewarehouse.com" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/gal-farmtire.png" loading="lazy" sizes="24vw" srcset="/images/gal-farmtire-p-500.png 500w, /images/gal-farmtire.png 645w" alt="" className="chose-slide-icon" /></a>
+          <a href="https://www.discounttirecenters.com/" target="_blank" className="chose-slider-div w-inline-block"><img src="/images/discount.png" loading="lazy" sizes="24vw" srcset="/images/discount-p-500.png 500w, /images/discount.png 645w" alt="" className="chose-slide-icon" /></a>
         </div>
       </section>
-      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet padding-0-mobile">
+      <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" className="section-repet padding-0-mobile">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -71,7 +71,7 @@ export default function Page() {
                 <p className="pargraph-medium">Navigate the digital transformation of the tire industry effortlessly with Tireweb Retail (formerly known as Ezytire). A comprehensive platform designed for tire dealers, it brings together real-time inventory, seamless checkouts, scheduling, and much more, all under one digital roof. Embrace an ecommerce experience that mirrors your in-store ethos, combined with the efficiency of online operations.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2733_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2733_1-p-500.png 500w, ../images/Rectangle-2733_1.png 691w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2733_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2733_1-p-500.png 500w, /images/Rectangle-2733_1.png 691w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
@@ -199,7 +199,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section data-w-id="75d3b363-47da-f589-c7b1-8567b6944f71" style={{opacity: 0}} className="section-repet extra-margain-added">
+      <section data-w-id="75d3b363-47da-f589-c7b1-8567b6944f71" className="section-repet extra-margain-added">
         <div className="container">
           <div className="repet-wraper">
             <div className="repet-wraper-content">
@@ -217,7 +217,7 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/1643-1-p-500.png 500w, ../images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/1643-1-p-500.png 500w, /images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>

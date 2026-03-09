@@ -80,7 +80,7 @@ export default function Footer() {
             </div>
             <div className="subscribe">
               <div className="w-form">
-                <form id="email-form-2" name="email-form-2" data-name="Email Form 2" action="https://tractionnews.us7.list-manage.com/subscribe/post?u=b9115134a02d1d5075e299e34&amp;amp;id=e9f07ffff4&amp;amp;f_id=00a8c7e1f0" method="post"><input className="input full-width-100 w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email*" type="email" id="EMAIL-4" required /><input type="submit" data-wait="Please wait..." className="submit-button-2 primary-button submit-button subscribe w-button" value="Subscribe" /></form>
+                <form id="email-form-2" name="email-form-2" data-name="Email Form 2" action="https://tractionnews.us7.list-manage.com/subscribe/post?u=b9115134a02d1d5075e299e34&amp;id=e9f07ffff4&amp;f_id=00a8c7e1f0" method="post"><input className="input full-width-100 w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Email*" type="email" id="EMAIL-4" required /><input type="submit" data-wait="Please wait..." className="submit-button-2 primary-button submit-button subscribe w-button" value="Subscribe" /></form>
                 <div className="w-form-done">
                   <div>Thank you! Your submission has been received!</div>
                 </div>

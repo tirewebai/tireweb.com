@@ -1,4 +1,5 @@
 import Layout from '../components/Layout';
+import WDropdown from '../components/WDropdown';
 
 
 
@@ -110,58 +111,22 @@ export default function Page() {
                 </div>
                 <div className="_30px-gap"></div>
               </div>
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Hands-on Analytics Interpretation</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">Beyond mere number crunching, we delve into analytics, extracting actionable insights that inform future strategies and tweaks.</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Holistic Campaign Management</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">From keyword selection and bid management to ad creation and landing page optimization, we manage every facet of your campaigns, driving maximum ROI</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Transparent Reporting</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">We believe in partnership and transparency. Our regular and detailed reports keep you in the loop, providing clarity on campaign performance and next steps</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="300" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Industry-Specific Expertise</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">With years of experience in the tire industry, we understand the nuances and specifics that make a difference in your ad campaigns</p>
-                </nav>
-              </div>
+              <WDropdown title="Hands-on Analytics Interpretation">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">Beyond mere number crunching, we delve into analytics, extracting actionable insights that inform future strategies and tweaks.</p>
+              </WDropdown>
+              <WDropdown title="Holistic Campaign Management">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">From keyword selection and bid management to ad creation and landing page optimization, we manage every facet of your campaigns, driving maximum ROI</p>
+              </WDropdown>
+              <WDropdown title="Transparent Reporting">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">We believe in partnership and transparency. Our regular and detailed reports keep you in the loop, providing clarity on campaign performance and next steps</p>
+              </WDropdown>
+              <WDropdown title="Industry-Specific Expertise">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">With years of experience in the tire industry, we understand the nuances and specifics that make a difference in your ad campaigns</p>
+              </WDropdown>
             </div>
             <div className="tireweb-library-image"><img src="/images/wheel-visualizer-1_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 676px) 93vw, (max-width: 767px) 629px, (max-width: 1279px) 43vw, (max-width: 1919px) 40vw, 629px" srcset="/images/wheel-visualizer-1_1-p-500.png 500w, /images/wheel-visualizer-1_1.png 629w" alt="" className="tireweb-library-icon" /></div>
           </div>

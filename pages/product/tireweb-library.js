@@ -1,4 +1,5 @@
 import Layout from '../../components/Layout';
+import WDropdown from '../../components/WDropdown';
 
 
 
@@ -138,71 +139,26 @@ export default function Page() {
           <div className="tireweb-library--wraper">
             <div className="tireweb-library-image"><img src="/images/advanced-imagery-1.svg" loading="lazy" alt="" className="tireweb-library-icon" /></div>
             <div className="tireweb-library-faq">
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Dynamic Variations</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium"> Craft multiple finishes and size variations to cater to diverse requirements.</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Multi-Angle Renders</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">Showcase tires and wheels from varied perspectives with alternate angles and resolutions.</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Future-Ready Assets</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">Our 3D assets are primed for Augmented Reality, Virtual Reality, and META applications.</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="300" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Cost-Efficient &amp; Time-Saving</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">Achieve stellar results at half the cost of traditional photography.</p>
-                </nav>
-              </div>
-              <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
-                <div className="tireweb-library-faq-wraper w-dropdown-toggle">
-                  <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
-                  <div className="tireweb-library-faq-heading heading-three">Engagement Amplifier</div>
-                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
-                </div>
-                <nav className="tireweb-library-faq-list w-dropdown-list">
-                  <div className="border-line">
-                    <div className="border-line-icons"></div>
-                  </div>
-                  <p className="pargraph-medium">Our quality images can double the time a user spends on your page, enhancing engagement and potential conversions.</p>
-                </nav>
-              </div>
+              <WDropdown title="Dynamic Variations">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium"> Craft multiple finishes and size variations to cater to diverse requirements.</p>
+              </WDropdown>
+              <WDropdown title="Multi-Angle Renders">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">Showcase tires and wheels from varied perspectives with alternate angles and resolutions.</p>
+              </WDropdown>
+              <WDropdown title="Future-Ready Assets">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">Our 3D assets are primed for Augmented Reality, Virtual Reality, and META applications.</p>
+              </WDropdown>
+              <WDropdown title="Cost-Efficient & Time-Saving">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">Achieve stellar results at half the cost of traditional photography.</p>
+              </WDropdown>
+              <WDropdown title="Engagement Amplifier">
+                <div className="border-line"><div className="border-line-icons"></div></div>
+                <p className="pargraph-medium">Our quality images can double the time a user spends on your page, enhancing engagement and potential conversions.</p>
+              </WDropdown>
               <div className="_15px-gap"></div>
               <div className="enrolment">
                 <p className="pargraph-medium balck-colr-text">Beyond imagery, we seamlessly syndicate comprehensive product information - from specifications and features to reviews and rebates, ensuring your product is presented in its entirety.</p>

@@ -1,10 +1,10 @@
 /**
  * LogoTicker — pure CSS infinite scrolling logo marquee.
- * Replaces the jQuery/Slick carousel used for .clients-logo.
- * Logos are duplicated to create a seamless loop.
+ * Accepts an optional `logos` prop (array of image paths).
+ * Falls back to the default homepage set if none provided.
  */
 
-const logos = [
+const DEFAULT_LOGOS = [
   '/images/Group-1000003602.png',
   '/images/Group-1000003603.png',
   '/images/Group-1000003604.png',
@@ -23,7 +23,7 @@ const logos = [
   '/images/Group-1000003629.png',
 ];
 
-export default function LogoTicker() {
+export default function LogoTicker({ logos = DEFAULT_LOGOS }) {
   return (
     <div
       className="clients-logo"

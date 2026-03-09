@@ -1,4 +1,21 @@
 import Layout from '../../components/Layout';
+import LogoTicker from '../../components/LogoTicker';
+
+const wholesaleLogos = [
+  '/images/Group-1000003602.png',
+  '/images/Group-1000003603.png',
+  '/images/Group-1000003604.png',
+  '/images/Group-1000003605.png',
+  '/images/Group-1000003609.png',
+  '/images/Group-1000003608.png',
+  '/images/Group-1000003607.png',
+  '/images/Group-1000003606.png',
+  '/images/Group-1000003617.png',
+  '/images/Group-1000003627.png',
+  '/images/www.png',
+  '/images/Group-1000003629.png',
+  '/images/Group-1000003630.png',
+];
 
 
 
@@ -161,21 +178,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
         </div>
-        <div data-w-id="971ac804-8fff-3e85-a778-ece704c1635c" className="clients-logo">
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003602.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003603.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003604.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003605.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003609.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003608.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003607.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003606.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003617.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003627.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/www.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003629.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003630.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-        </div>
+        <LogoTicker logos={wholesaleLogos} />
       </section>
       <section data-w-id="e71d34cb-65fb-68fb-a87d-d0d2fdef5910" className="section-intergation">
         <div className="container">

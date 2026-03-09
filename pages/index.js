@@ -1,4 +1,5 @@
 import Layout from '../components/Layout';
+import HomeBanner from '../components/HomeBanner';
 
 
 
@@ -11,81 +12,7 @@ export default function Page() {
       canonical="https://www.tireweb.com"
     >
       <div className="main-wraper">
-      <div data-w-id="0a0cb67f-f20e-c8ee-4e86-d82202059c65" style={{opacity: 0}} className="home-baner">
-        <div className="container">
-          <div data-delay="5000" data-animation="slide" className="slider-2 w-slider" data-autoplay="true" data-easing="ease-in-out" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="900" data-infinite="true">
-            <div className="w-slider-mask">
-              <div className="w-slide">
-                <div className="baner-grid">
-                  <div id="w-node-d807469a-d32c-e135-49fd-3fc939feedaf-693bcc1b" className="w-layout-layout quick-stack wf-layout-layout">
-                    <div id="w-node-d807469a-d32c-e135-49fd-3fc939feedb1-693bcc1b" className="w-layout-cell cell-2">
-                      <div className="baner-image"><img loading="lazy" height="Auto" alt="" src="/images/OJK8ZS1-1.png" className="baner-icon" /></div>
-                    </div>
-                    <div id="w-node-d807469a-d32c-e135-49fd-3fc939feedb0-693bcc1b" className="w-layout-cell cell">
-                      <div className="baner-content-wraper">
-                        <h1 className="heading-one"><strong>Powering the Tire Industry for 25 Years</strong></h1>
-                        <div className="_15px-gap"></div>
-                        <p className="pargraph-medium">At Tireweb, our mission is simple - working together to deliver creative, efficient, reliable, and secure solutions that help our partners grow. <br /><br />For 25 years, our vision has guided everything we do: powering the tire industry to success by being the most trusted technology partner for connection, growth, and innovation. From ecommerce platforms to advanced data tools, Tireweb helps you sell more tires and wheels every day.</p>
-                        <div className="_30px-gap"></div>
-                        <a href="/become-a-partner" className="primary-button fixed-width-button w-inline-block">
-                          <div className="primary-button-text">Find out More</div><img loading="lazy" src="/images/Vector.svg" alt="" className="primary-button-icon" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-slide">
-                <div className="baner-grid">
-                  <div id="w-node-b1a5ab0a-0d46-fd32-b70c-1aff3870786e-693bcc1b" className="w-layout-layout quick-stack wf-layout-layout">
-                    <div id="w-node-b1a5ab0a-0d46-fd32-b70c-1aff3870786f-693bcc1b" className="w-layout-cell cell-2">
-                      <div className="baner-image"><img src="/images/OWINJ41-1.png" loading="lazy" alt="" className="baner-icon" /></div>
-                    </div>
-                    <div id="w-node-b1a5ab0a-0d46-fd32-b70c-1aff38707872-693bcc1b" className="w-layout-cell cell">
-                      <div className="baner-content-wraper">
-                        <h1 className="heading-one">Introducing Tireweb Mobile</h1>
-                        <div className="_15px-gap"></div>
-                        <p className="pargraph-medium">Tire and Wheel Ordering in the Palm of Your Hand</p>
-                        <div className="_30px-gap"></div>
-                        <a href="/product/tireweb-mobile" className="primary-button fixed-width-button w-inline-block">
-                          <div className="primary-button-text">Learn more</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-slide">
-                <div className="baner-grid">
-                  <div id="w-node-_2c676369-eb93-ca09-9e68-7b409ddd0308-693bcc1b" className="w-layout-layout quick-stack wf-layout-layout">
-                    <div id="w-node-_2c676369-eb93-ca09-9e68-7b409ddd0309-693bcc1b" className="w-layout-cell cell-2">
-                      <div className="baner-image"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" alt="" className="baner-icon" /></div>
-                    </div>
-                    <div id="w-node-_2c676369-eb93-ca09-9e68-7b409ddd030c-693bcc1b" className="w-layout-cell cell">
-                      <div className="baner-content-wraper">
-                        <h1 className="heading-one">Introducing TireSearch </h1>
-                        <div className="_15px-gap"></div>
-                        <p className="pargraph-medium">Redefine Digital Sales with TireSearch by Tireweb. Seamless Online Tire Shopping for Every Website.</p>
-                        <div className="_30px-gap"></div>
-                        <a href="/product/tireweb-tiresearch" className="primary-button fixed-width-button w-inline-block">
-                          <div className="primary-button-text">Learn more</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="left-arrow-2 w-slider-arrow-left">
-              <div className="icon-5 w-icon-slider-left"></div><img loading="lazy" src="/images/Group-177.svg" alt="" className="image-8" />
-            </div>
-            <div className="right-arrow-2 w-slider-arrow-right">
-              <div className="icon-6 w-icon-slider-right"></div><img loading="lazy" src="/images/Group-177.svg" alt="" className="image-9" />
-            </div>
-            <div className="slide-nav-2 w-slider-nav w-round w-num"></div>
-          </div>
-        </div>
-      </div>
+      <HomeBanner />
       <section className="section-products">
         <div className="container">
           <div className="section-heading canter-heading">

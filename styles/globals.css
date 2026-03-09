@@ -202,3 +202,15 @@ a.primary-button:hover img {
     .header-dropdown-warper::after { display: none;;}
   }
 
+
+/* Footer logo alignment - centered above footer columns */
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo img {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+}

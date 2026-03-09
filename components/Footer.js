@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <section className="footer">
       <div className="container">
-        <div className="footer-logo"><img src="/images/Group-390.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.875px, 100vw" srcset="/images/Group-390-p-500.png 500w, images/Group-390-p-800.png 800w, images/Group-390-p-1080.png 1080w, images/Group-390.png 1440w" alt="" /></div>
+        <div className="footer-logo"><img src="/images/Group-390.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.875px, 100vw" srcset="/images/Group-390-p-500.png 500w, /images/Group-390-p-800.png 800w, /images/Group-390-p-1080.png 1080w, /images/Group-390.png 1440w" alt="" /></div>
         <div className="_30px-gap"></div>
         <div className="footer-wraper">
           <div className="footer-box">
@@ -95,7 +95,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <div className="copy-right-wraper">
-            <div className="copyright-text">Copyright © 2025. E-Solution Professionals Pty Ltd dba Tireweb</div>
+            <div className="copyright-text">Copyright © 2026. E-Solution Professionals Pty Ltd dba Tireweb</div>
             <div className="copy-right-menu">
               <a href="/privacy-policy" className="copy-right-menu">Privacy Policy</a>
               <div className="icon-copy text-block-2">I</div>

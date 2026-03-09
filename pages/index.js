@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import HomeBanner from '../components/HomeBanner';
+import LogoTicker from '../components/LogoTicker';
 
 
 
@@ -170,24 +171,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
         </div>
-        <div data-w-id="f2fcb0b4-a2ec-004c-f568-41ec49936467" className="clients-logo">
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003602.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003603.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003604.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003605.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003609.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003608.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003607.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003606.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003617.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003627.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003611.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003612.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003616.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003615.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/www.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003629.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-        </div>
+        <LogoTicker />
       </section>
       <section className="section-services">
         <div className="container">

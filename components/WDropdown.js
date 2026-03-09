@@ -1,13 +1,18 @@
 import { useState } from 'react';
 
-export default function WDropdown({ title, children }) {
-  const [open, setOpen] = useState(false);
+export default function WDropdown({ title, children, isOpen: controlledIsOpen, onToggle }) {
+  const [internalOpen, setInternalOpen] = useState(false);
+
+  // Support both controlled (from WDropdownGroup) and uncontrolled (standalone) usage
+  const isControlled = controlledIsOpen !== undefined;
+  const open = isControlled ? controlledIsOpen : internalOpen;
+  const toggle = isControlled ? onToggle : () => setInternalOpen((v) => !v);
 
   return (
     <div className={`tireweb-library-faq-box w-dropdown${open ? ' w--open' : ''}`}>
       <div
         className={`tireweb-library-faq-wraper w-dropdown-toggle${open ? ' w--open' : ''}`}
-        onClick={() => setOpen(!open)}
+        onClick={toggle}
         style={{ cursor: 'pointer' }}
       >
         <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>

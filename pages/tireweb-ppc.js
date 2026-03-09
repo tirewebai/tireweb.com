@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import WDropdown from '../components/WDropdown';
+import WDropdownGroup from '../components/WDropdownGroup';
 
 
 
@@ -111,6 +112,7 @@ export default function Page() {
                 </div>
                 <div className="_30px-gap"></div>
               </div>
+              <WDropdownGroup>
               <WDropdown title="Hands-on Analytics Interpretation">
                 <div className="border-line"><div className="border-line-icons"></div></div>
                 <p className="pargraph-medium">Beyond mere number crunching, we delve into analytics, extracting actionable insights that inform future strategies and tweaks.</p>
@@ -127,6 +129,7 @@ export default function Page() {
                 <div className="border-line"><div className="border-line-icons"></div></div>
                 <p className="pargraph-medium">With years of experience in the tire industry, we understand the nuances and specifics that make a difference in your ad campaigns</p>
               </WDropdown>
+              </WDropdownGroup>
             </div>
             <div className="tireweb-library-image"><img src="/images/wheel-visualizer-1_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 676px) 93vw, (max-width: 767px) 629px, (max-width: 1279px) 43vw, (max-width: 1919px) 40vw, 629px" srcset="/images/wheel-visualizer-1_1-p-500.png 500w, /images/wheel-visualizer-1_1.png 629w" alt="" className="tireweb-library-icon" /></div>
           </div>

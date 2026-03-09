@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout';
 import WDropdown from '../../components/WDropdown';
+import WDropdownGroup from '../../components/WDropdownGroup';
 
 
 
@@ -139,6 +140,7 @@ export default function Page() {
           <div className="tireweb-library--wraper">
             <div className="tireweb-library-image"><img src="/images/advanced-imagery-1.svg" loading="lazy" alt="" className="tireweb-library-icon" /></div>
             <div className="tireweb-library-faq">
+              <WDropdownGroup>
               <WDropdown title="Dynamic Variations">
                 <div className="border-line"><div className="border-line-icons"></div></div>
                 <p className="pargraph-medium"> Craft multiple finishes and size variations to cater to diverse requirements.</p>
@@ -159,6 +161,7 @@ export default function Page() {
                 <div className="border-line"><div className="border-line-icons"></div></div>
                 <p className="pargraph-medium">Our quality images can double the time a user spends on your page, enhancing engagement and potential conversions.</p>
               </WDropdown>
+              </WDropdownGroup>
               <div className="_15px-gap"></div>
               <div className="enrolment">
                 <p className="pargraph-medium balck-colr-text">Beyond imagery, we seamlessly syndicate comprehensive product information - from specifications and features to reviews and rebates, ensuring your product is presented in its entirety.</p>

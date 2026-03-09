@@ -202,25 +202,25 @@ export default function Navbar() {
 
             <MobileDropdown label="Services">
               <div style={{ padding: '5px 30px 10px', background: '#01305a' }}>
-                <Link href="/custom-development" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Custom Development</Link>
-                <Link href="/marketing-services" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Marketing Services</Link>
+                <Link href="/custom-development" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Custom Development</Link>
+                <Link href="/marketing-services" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Marketing Services</Link>
               </div>
             </MobileDropdown>
 
             <MobileDropdown label="Support">
               <div style={{ padding: '5px 30px 10px', background: '#01305a' }}>
-                <a href="https://servicedesk.esprofessionals.com/" target="_blank" rel="noreferrer" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Wholesale Support</a>
-                <a href="https://tireweb.zendesk.com/auth/v2/login/" target="_blank" rel="noreferrer" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Retail Support</a>
-                <a href="https://developer.tirewire.com" target="_blank" rel="noreferrer" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>API Documentation</a>
+                <a href="https://servicedesk.esprofessionals.com/" target="_blank" rel="noreferrer" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Wholesale Support</a>
+                <a href="https://tireweb.zendesk.com/auth/v2/login/" target="_blank" rel="noreferrer" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Retail Support</a>
+                <a href="https://developer.tirewire.com" target="_blank" rel="noreferrer" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>API Documentation</a>
               </div>
             </MobileDropdown>
 
             <MobileDropdown label="Partners">
               <div style={{ padding: '5px 30px 10px', background: '#01305a' }}>
-                <Link href="/integration-partners-hub" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Integration partners hub</Link>
-                <Link href="/agency-partners-hub" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Agency partners hub</Link>
-                <Link href="/developers" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Developers hub</Link>
-                <Link href="/become-a-partner" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Become a partner</Link>
+                <Link href="/integration-partners-hub" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Integration partners hub</Link>
+                <Link href="/agency-partners-hub" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Agency partners hub</Link>
+                <Link href="/developers" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Developers hub</Link>
+                <Link href="/become-a-partner" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Become a partner</Link>
               </div>
             </MobileDropdown>
 
@@ -228,9 +228,9 @@ export default function Navbar() {
 
             <MobileDropdown label="Contact Us">
               <div style={{ padding: '5px 30px 10px', background: '#01305a' }}>
-                <Link href="/contact-us" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Contact</Link>
-                <Link href="/schedule-a-demo" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Schedule a Demo</Link>
-                <Link href="/careers-at-tireweb" className="page-menu sub-menu" style={{ display: 'block', color: '#023D72', padding: '7px 0' }}>Careers</Link>
+                <Link href="/contact-us" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Contact</Link>
+                <Link href="/schedule-a-demo" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Schedule a Demo</Link>
+                <Link href="/careers-at-tireweb" className="page-menu sub-menu" style={{ display: 'block', color: '#fff', padding: '7px 0' }}>Careers</Link>
               </div>
             </MobileDropdown>
 

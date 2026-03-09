@@ -32,7 +32,7 @@ export default function LogoTicker({ logos = DEFAULT_LOGOS }) {
       {/* Duplicate the set so the animation loops seamlessly */}
       <div className="logo-ticker-track">
         {[...logos, ...logos].map((src, i) => (
-          <div key={i} className="clients-logo-wraper white-background-icon" style={{ flexShrink: 0 }}>
+          <div key={i} className="clients-logo-wraper white-background-icon" style={{ flexShrink: 0, width: 160, marginBottom: 0 }}>
             <img src={src} loading="lazy" alt="" className="clients-logo-icon" />
           </div>
         ))}

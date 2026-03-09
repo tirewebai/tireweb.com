@@ -57,61 +57,52 @@ export default function HomeBanner() {
       style={{ position: 'relative' }}
     >
       <div className="container">
-        {/* Slide content */}
+        {/* Slide content - 2-column grid: text left, image right */}
         <div className="baner-grid">
-          <div className="w-layout-layout quick-stack wf-layout-layout">
-            <div className="w-layout-cell cell-2">
-              <div className="baner-image">
-                <img
-                  key={current}
-                  loading="eager"
-                  height="Auto"
-                  alt=""
-                  src={slide.image}
-                  className="baner-icon"
-                  style={{ animation: 'fadeIn 0.6s ease' }}
-                />
-              </div>
+          <div
+            className="baner-grid-inner"
+            style={{
+              display: 'grid',
+              gridTemplateColumns: '1fr 1fr',
+              columnGap: '40px',
+              rowGap: '40px',
+              alignItems: 'center',
+              padding: '20px 0',
+            }}
+          >
+            {/* Text column (left) */}
+            <div
+              className="baner-content-wraper"
+              key={current + '-text'}
+              style={{ animation: 'fadeIn 0.6s ease' }}
+            >
+              <h1 className="heading-one">{slide.heading}</h1>
+              <div className="_15px-gap"></div>
+              <p className="pargraph-medium">{slide.body}</p>
+              <div className="_30px-gap"></div>
+              <Link href={slide.cta.href} className="primary-button fixed-width-button w-inline-block">
+                <div className="primary-button-text">{slide.cta.text}</div>
+                <img loading="lazy" src="/images/Vector.svg" alt="" className="primary-button-icon" />
+              </Link>
             </div>
-            <div className="w-layout-cell cell">
-              <div
-                className="baner-content-wraper"
-                key={current + '-text'}
-                style={{ animation: 'fadeIn 0.6s ease' }}
-              >
-                <h1 className="heading-one">{slide.heading}</h1>
-                <div className="_15px-gap"></div>
-                <p className="pargraph-medium">{slide.body}</p>
-                <div className="_30px-gap"></div>
-                <Link href={slide.cta.href} className="primary-button fixed-width-button w-inline-block">
-                  <div className="primary-button-text">{slide.cta.text}</div>
-                  <img loading="lazy" src="/images/Vector.svg" alt="" className="primary-button-icon" />
-                </Link>
-              </div>
+
+            {/* Image column (right) */}
+            <div className="baner-image" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+              <img
+                key={current}
+                loading="eager"
+                alt=""
+                src={slide.image}
+                className="baner-icon"
+                style={{ width: '100%', maxWidth: '100%', height: 'auto', animation: 'fadeIn 0.6s ease' }}
+              />
             </div>
           </div>
         </div>
 
-        {/* Prev arrow */}
-        <div
-          className="left-arrow-2 w-slider-arrow-left"
-          onClick={prev}
-          style={{ cursor: 'pointer', position: 'absolute', bottom: 50, right: 100, width: 50 }}
-        >
-          <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'none', position: 'static', width: 50 }} />
-        </div>
-
-        {/* Next arrow */}
-        <div
-          className="right-arrow-2 w-slider-arrow-right"
-          onClick={next}
-          style={{ cursor: 'pointer', position: 'absolute', bottom: 50, right: 30, width: 50 }}
-        >
-          <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'rotateY(180deg)', position: 'static', width: 50 }} />
-        </div>
-
-        {/* Dot indicators */}
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 8, paddingTop: 16, paddingBottom: 8 }}>
+        {/* Controls row: dots centre, arrows right */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, paddingTop: 8, paddingBottom: 16, position: 'relative' }}>
+          {/* Dot indicators */}
           {slides.map((_, i) => (
             <button
               key={i}
@@ -129,6 +120,24 @@ export default function HomeBanner() {
               aria-label={`Go to slide ${i + 1}`}
             />
           ))}
+
+          {/* Prev arrow */}
+          <div
+            className="left-arrow-2 w-slider-arrow-left"
+            onClick={prev}
+            style={{ cursor: 'pointer', position: 'absolute', right: 70, width: 40 }}
+          >
+            <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'none', position: 'static', width: 40 }} />
+          </div>
+
+          {/* Next arrow */}
+          <div
+            className="right-arrow-2 w-slider-arrow-right"
+            onClick={next}
+            style={{ cursor: 'pointer', position: 'absolute', right: 16, width: 40 }}
+          >
+            <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40 }} />
+          </div>
         </div>
       </div>
 
@@ -136,6 +145,11 @@ export default function HomeBanner() {
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(8px); }
           to   { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 991px) {
+          .baner-grid-inner {
+            grid-template-columns: 1fr !important;
+          }
         }
       `}</style>
     </div>

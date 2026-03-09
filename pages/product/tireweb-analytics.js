@@ -20,10 +20,10 @@ export default function Page() {
               <p className="pargraph-medium">Business Intelligence Tailored for the Tire Industry</p>
               <div className="_30px-gap"></div>
               <a href="/contact-us" className="primary-button fixed-width-button auto-mobile button-width-1 w-inline-block">
-                <div className="primary-button-text">Discover Data-Driven Insights!</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Discover Data-Driven Insights!</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="baner-wraper-image"><img src="/../images/desktop-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/desktop-1-p-500.png 500w, ../images/desktop-1.png 621w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/desktop-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/desktop-1-p-500.png 500w, ../images/desktop-1.png 621w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default function Page() {
       <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet margain-added-bottom">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/image-102.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/image-102-p-500.jpg 500w, ../images/image-102.jpg 706w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/image-102.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/image-102-p-500.jpg 500w, ../images/image-102.jpg 706w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Order Builder</h2>
@@ -79,14 +79,14 @@ export default function Page() {
                 <p className="pargraph-medium">Gain deeper understanding of your customer purchasing behavior, monitor order history, track purchases, and analyze program performance.  Our PoS analytics provides a quick overview of your company&#x27;s performance while allowing you to &quot;dig deep&quot; at any time to get to the individual data comprising the whole of your business.  Whether you’re looking to boost sales, optimize inventory, or enhance customer loyalty, our tools provide the insights you needto succeed.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/image-104.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/image-104-p-500.jpg 500w, ../images/image-104.jpg 688w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/image-104.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/image-104-p-500.jpg 500w, ../images/image-104.jpg 688w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
       <section data-w-id="7d9b11bb-5f40-6326-5f99-5387e0b10453" style={{opacity: 0}} className="section-repet margain-added-bottom">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/image-104-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/image-104-1-p-500.jpg 500w, ../images/image-104-1.jpg 710w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/image-104-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/image-104-1-p-500.jpg 500w, ../images/image-104-1.jpg 710w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Comprehensive Reporting</h2>
@@ -115,7 +115,7 @@ export default function Page() {
                 <p className="pargraph-medium">Identify what your customers are searching for on your website and what motivates their buying decisions. Tireweb Analytics&#x27; Business Intelligence Specialists can work with you to identify the drivers behind your customers buying habits and provide dynamic pricing and offers tailored to individual customers to maximize sales.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/SearchAnalytics-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/SearchAnalytics-1-p-500.jpg 500w, ../images/SearchAnalytics-1.jpg 693w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/SearchAnalytics-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/SearchAnalytics-1-p-500.jpg 500w, ../images/SearchAnalytics-1.jpg 693w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
         <div className="_30px-gap"></div>
@@ -219,7 +219,7 @@ export default function Page() {
             <div className="_30px-gap"></div>
             <div className="button-group">
               <a href="/schedule-a-demo" className="primary-button extra-width-button white-boreder w-inline-block">
-                <div className="primary-button-text">See it in Action: Request a Free Demo!</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">See it in Action: Request a Free Demo!</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>

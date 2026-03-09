@@ -14,7 +14,7 @@ export default function Page() {
       <div className="baner">
         <div className="container">
           <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/images/pngwing-1.png" loading="lazy" sizes="(max-width: 812px) 100vw, 812px" srcset="images/pngwing-1-p-500.png 500w, images/pngwing-1-p-800.png 800w, images/pngwing-1.png 812w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/pngwing-1.png" loading="lazy" sizes="(max-width: 812px) 100vw, 812px" srcset="/images/pngwing-1-p-500.png 500w, images/pngwing-1-p-800.png 800w, images/pngwing-1.png 812w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts font-size--reduceds">Join Our Tireweb Family</h1>
               <div className="_15px-gap"></div>
@@ -107,7 +107,7 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2771.jpg" loading="lazy" sizes="(max-width: 701px) 100vw, 701px" srcset="images/Rectangle-2771-p-500.jpg 500w, images/Rectangle-2771.jpg 701w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2771.jpg" loading="lazy" sizes="(max-width: 701px) 100vw, 701px" srcset="/images/Rectangle-2771-p-500.jpg 500w, images/Rectangle-2771.jpg 701w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>

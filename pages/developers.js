@@ -73,14 +73,14 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/1643-1-p-500.png 500w, images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/1643-1-p-500.png 500w, images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
       <section data-w-id="5a7a14ad-6203-9dc1-1729-0c5fa68b5ed0" style={{opacity: 0}} className="section-repet">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/tireweb-tiresearch-home-p-500.png 500w, images/tireweb-tiresearch-home.png 702w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tireweb-tiresearch-home.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tireweb-tiresearch-home-p-500.png 500w, images/tireweb-tiresearch-home.png 702w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">TireSearch by Tireweb</h2>
@@ -171,7 +171,7 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tirelibrary-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/tirelibrary-1-p-500.png 500w, images/tirelibrary-1-p-800.png 800w, images/tirelibrary-1.png 928w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/tirelibrary-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/tirelibrary-1-p-500.png 500w, images/tirelibrary-1-p-800.png 800w, images/tirelibrary-1.png 928w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>

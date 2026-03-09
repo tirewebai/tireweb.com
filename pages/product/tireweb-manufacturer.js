@@ -14,14 +14,14 @@ export default function Page() {
       <div className="baner">
         <div className="container">
           <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/../images/65980-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/65980-1-p-500.png 500w, ../images/65980-1.png 749w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/65980-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/65980-1-p-500.png 500w, ../images/65980-1.png 749w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Manufacturer</h1>
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Empowering Tire and Wheel Manufacturers with Advanced Digital Solutions.</p>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button auto-mobile w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Page() {
       <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/Tireweb-Wholesale-1.svg" loading="lazy" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1.svg" loading="lazy" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Tireweb Wholesale for Manufacturers</h2>
@@ -66,7 +66,7 @@ export default function Page() {
                 <p className="pargraph-medium">Build a compelling online presence for your brand in the North American market. Our state-of-the-art website platform delivers stunning, functional websites designed to resonate with your dealer network. With seamless login features and intuitive navigation, ensure your dealers have an unmatched digital experience.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/Tireweb-Wholesale-1-1.svg" loading="lazy" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1-1.svg" loading="lazy" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
@@ -84,13 +84,13 @@ export default function Page() {
           <div className="_30px-gap"></div>
           <div className="_30px-gap"></div>
           <div className="tireweb-library--wraper">
-            <div className="tireweb-library-image"><img src="/../images/advanced-imagery-1.svg" loading="lazy" alt="" className="tireweb-library-icon" /></div>
+            <div className="tireweb-library-image"><img src="/images/advanced-imagery-1.svg" loading="lazy" alt="" className="tireweb-library-icon" /></div>
             <div className="tireweb-library-faq">
               <div data-hover="false" data-delay="0" className="tireweb-library-faq-box w-dropdown">
                 <div className="tireweb-library-faq-wraper w-dropdown-toggle">
                   <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
                   <div className="tireweb-library-faq-heading heading-three">Dynamic Variations</div>
-                  <div className="icon-wraper"><img src="/../images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/../images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
+                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
                 </div>
                 <nav className="tireweb-library-faq-list w-dropdown-list">
                   <div className="border-line">
@@ -103,7 +103,7 @@ export default function Page() {
                 <div className="tireweb-library-faq-wraper w-dropdown-toggle">
                   <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
                   <div className="tireweb-library-faq-heading heading-three">Multi-Angle Renders</div>
-                  <div className="icon-wraper"><img src="/../images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/../images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
+                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
                 </div>
                 <nav className="tireweb-library-faq-list w-dropdown-list">
                   <div className="border-line">
@@ -116,7 +116,7 @@ export default function Page() {
                 <div className="tireweb-library-faq-wraper w-dropdown-toggle">
                   <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
                   <div className="tireweb-library-faq-heading heading-three">Future-Ready Assets</div>
-                  <div className="icon-wraper"><img src="/../images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/../images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
+                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
                 </div>
                 <nav className="tireweb-library-faq-list w-dropdown-list">
                   <div className="border-line">
@@ -129,7 +129,7 @@ export default function Page() {
                 <div className="tireweb-library-faq-wraper w-dropdown-toggle">
                   <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
                   <div className="tireweb-library-faq-heading heading-three">Cost-Efficient &amp; Time-Saving</div>
-                  <div className="icon-wraper"><img src="/../images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/../images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
+                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
                 </div>
                 <nav className="tireweb-library-faq-list w-dropdown-list">
                   <div className="border-line">
@@ -142,7 +142,7 @@ export default function Page() {
                 <div className="tireweb-library-faq-wraper w-dropdown-toggle">
                   <div className="tireweb-library-faq-icon w-icon-dropdown-toggle"></div>
                   <div className="tireweb-library-faq-heading heading-three">Engagement Amplifier</div>
-                  <div className="icon-wraper"><img src="/../images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/../images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
+                  <div className="icon-wraper"><img src="/images/Group-527.svg" loading="lazy" alt="" className="minus-icon" /><img src="/images/Group-527-1.svg" loading="lazy" alt="" className="plus-icon" /></div>
                 </div>
                 <nav className="tireweb-library-faq-list w-dropdown-list">
                   <div className="border-line">
@@ -157,7 +157,7 @@ export default function Page() {
               </div>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button auto-mobile extra-widths w-inline-block">
-                <div className="primary-button-text">Elevate Your Brand with Tireweb Manufacturer Solutions</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Elevate Your Brand with Tireweb Manufacturer Solutions</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>

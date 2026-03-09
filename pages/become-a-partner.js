@@ -150,7 +150,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="client-conatct-image"><img src="/images/pngegg-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 47vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/pngegg-3-p-500.png 500w, images/pngegg-3.png 770w" alt="" /></div>
+            <div className="client-conatct-image"><img src="/images/pngegg-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 47vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/pngegg-3-p-500.png 500w, images/pngegg-3.png 770w" alt="" /></div>
           </div>
         </div>
       </section>

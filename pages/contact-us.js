@@ -42,7 +42,7 @@ export default function Page() {
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Your Questions, Suggestions, and Feedback Matter.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/Mask-group-p-500.jpg 500w, images/Mask-group.jpg 675w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/Mask-group.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Mask-group-p-500.jpg 500w, images/Mask-group.jpg 675w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="client-conatct-image"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 47vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/Rectangle-2753-2-p-500.jpg 500w, images/Rectangle-2753-2.jpg 750w" alt="" /></div>
+            <div className="client-conatct-image"><img src="/images/Rectangle-2753-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 47vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-2-p-500.jpg 500w, images/Rectangle-2753-2.jpg 750w" alt="" /></div>
           </div>
         </div>
       </section>

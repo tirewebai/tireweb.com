@@ -14,14 +14,14 @@ export default function Page() {
       <div className="baner">
         <div className="container">
           <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/../images/tireweb-wholesale-home.png" loading="lazy" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/tireweb-wholesale-home.png" loading="lazy" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Wholesale</h1>
               <div className="_15px-gap"></div>
               <p className="pargraph-medium"><strong>Power your B2B channel with seamless ecommerce built for tire distributors.<br /><br /></strong>Tireweb Wholesale gives your wholesale operation a robust, branded ecommerce platform that handles inventory, pricing, orders, and customer access - all with the controls you need.</p>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button auto-mobile w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Page() {
                 <p className="pargraph-medium">Tireweb Wholesale is a complete ecommerce platform built specifically for tire distributors. It simplifies ordering, pricing, and inventory management while giving your dealers a fast, branded online portal to buy from you anytime.<br /><br />Designed for efficiency, the platform automates order processing, integrates seamlessly with your existing systems, and provides real-time visibility into stock and pricing. Whether you serve a few dealers or thousands, Tireweb Wholesale scales with your business and helps you sell smarter.</p>
               </div>
             </div>
-            <div className="repet--wraper-image"><img src="/../images/Rectangle-2733.png" loading="lazy" sizes="(max-width: 691px) 100vw, 691px" srcset="../images/Rectangle-2733-p-500.png 500w, ../images/Rectangle-2733.png 691w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image"><img src="/images/Rectangle-2733.png" loading="lazy" sizes="(max-width: 691px) 100vw, 691px" srcset="/images/Rectangle-2733-p-500.png 500w, ../images/Rectangle-2733.png 691w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
@@ -162,19 +162,19 @@ export default function Page() {
           <div className="_30px-gap"></div>
         </div>
         <div data-w-id="971ac804-8fff-3e85-a778-ece704c1635c" style={{opacity: 0}} className="clients-logo">
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003602.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003603.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003604.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003605.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003609.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003608.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003607.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003606.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003617.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003627.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/www.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003629.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
-          <div className="clients-logo-wraper white-background-icon"><img src="/../images/Group-1000003630.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003602.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003603.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003604.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003605.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003609.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003608.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003607.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003606.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003617.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003627.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/www.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003629.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
+          <div className="clients-logo-wraper white-background-icon"><img src="/images/Group-1000003630.png" loading="lazy" alt="" className="clients-logo-icon" /></div>
         </div>
       </section>
       <section data-w-id="e71d34cb-65fb-68fb-a87d-d0d2fdef5910" style={{opacity: 0}} className="section-intergation">
@@ -204,7 +204,7 @@ export default function Page() {
             <div className="div-block"></div>
           </div>
           <div className="_30px-gap"></div>
-          <div className="wholesale-wraper"><img src="/../images/svg-1.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/../images/Logo-White-Transparent.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/../images/Layer-2.png" loading="lazy" alt="" className="wholesale-image-icon" /></div>
+          <div className="wholesale-wraper"><img src="/images/svg-1.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/images/Logo-White-Transparent.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/images/Layer-2.png" loading="lazy" alt="" className="wholesale-image-icon" /></div>
         </div>
       </section>
       <section data-w-id="c6394c05-3eda-778e-aaac-d5573685f7d9" style={{opacity: 0}} className="section-pos">
@@ -218,27 +218,27 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
           <div className="pos-wraper">
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003634.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003636.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003638.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003640.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003635.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003637.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003643.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003641.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003649.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003644.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003645.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003647.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003648.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
-            <div className="pos-wraper-image"><img src="/../images/Group-1000003650.svg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003634.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003636.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003638.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003640.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003635.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003637.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003643.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003641.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003649.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003644.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003645.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003647.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003648.jpg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
+            <div className="pos-wraper-image"><img src="/images/Group-1000003650.svg" loading="lazy" alt="" className="pos-wraper-image-icon" /></div>
           </div>
         </div>
       </section>
       <section className="section-repet transparent-section">
         <div className="container">
           <div data-w-id="48f13e8f-893f-7abc-659f-ad0ada3a28b6" style={{opacity: 0}} className="repet-wraper">
-            <div className="repet--wraper-image"><img src="/../images/Treadmart-1.png" loading="lazy" sizes="(max-width: 703px) 100vw, 703px" srcset="../images/Treadmart-1-p-500.png 500w, ../images/Treadmart-1.png 703w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image"><img src="/images/Treadmart-1.png" loading="lazy" sizes="(max-width: 703px) 100vw, 703px" srcset="/images/Treadmart-1-p-500.png 500w, ../images/Treadmart-1.png 703w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">About Treadmart</h2>
@@ -346,7 +346,7 @@ export default function Page() {
       <section className="section-app">
         <div className="container">
           <div className="app-wraper">
-            <div className="app-immge-box"><img src="/../images/Group-1000003553.png" loading="lazy" sizes="(max-width: 828px) 100vw, 828px" srcset="../images/Group-1000003553-p-500.png 500w, ../images/Group-1000003553-p-800.png 800w, ../images/Group-1000003553.png 828w" alt="" className="app-image-icons" /></div>
+            <div className="app-immge-box"><img src="/images/Group-1000003553.png" loading="lazy" sizes="(max-width: 828px) 100vw, 828px" srcset="/images/Group-1000003553-p-500.png 500w, ../images/Group-1000003553-p-800.png 800w, ../images/Group-1000003553.png 828w" alt="" className="app-image-icons" /></div>
             <div className="app-content">
               <div className="section-heading">
                 <h2 className="heading-two">Download Our Demo App</h2>
@@ -359,12 +359,12 @@ export default function Page() {
               </div>
               <div className="_30px-gap"></div>
               <div className="app-image-icon">
-                <a href="https://play.google.com/store/apps/details?id=com.companyname.tirewebmobile&amp;hl=en&amp;gl=US" target="_blank" className="app-link w-inline-block"><img src="/../images/pngegg-1.png" loading="lazy" alt="" className="app-link-image" /></a>
-                <a href="https://apps.apple.com/au/app/tireweb/id6450261776" target="_blank" className="app-link w-inline-block"><img src="/../images/pngegg-2.png" loading="lazy" alt="" className="app-link-image" /></a>
+                <a href="https://play.google.com/store/apps/details?id=com.companyname.tirewebmobile&amp;hl=en&amp;gl=US" target="_blank" className="app-link w-inline-block"><img src="/images/pngegg-1.png" loading="lazy" alt="" className="app-link-image" /></a>
+                <a href="https://apps.apple.com/au/app/tireweb/id6450261776" target="_blank" className="app-link w-inline-block"><img src="/images/pngegg-2.png" loading="lazy" alt="" className="app-link-image" /></a>
               </div>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>

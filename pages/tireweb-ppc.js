@@ -19,7 +19,7 @@ export default function Page() {
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Fueling Your Digital Growth with Precision-Targeted PPC &amp; Shopping Ad Campaigns.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/Group-206-1-p-500.png 500w, images/Group-206-1.png 559w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Group-206-1-p-500.png 500w, images/Group-206-1.png 559w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -163,14 +163,14 @@ export default function Page() {
                 </nav>
               </div>
             </div>
-            <div className="tireweb-library-image"><img src="/images/wheel-visualizer-1_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 676px) 93vw, (max-width: 767px) 629px, (max-width: 1279px) 43vw, (max-width: 1919px) 40vw, 629px" srcset="images/wheel-visualizer-1_1-p-500.png 500w, images/wheel-visualizer-1_1.png 629w" alt="" className="tireweb-library-icon" /></div>
+            <div className="tireweb-library-image"><img src="/images/wheel-visualizer-1_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 676px) 93vw, (max-width: 767px) 629px, (max-width: 1279px) 43vw, (max-width: 1919px) 40vw, 629px" srcset="/images/wheel-visualizer-1_1-p-500.png 500w, images/wheel-visualizer-1_1.png 629w" alt="" className="tireweb-library-icon" /></div>
           </div>
         </div>
       </section>
       <section data-w-id="98495d23-9f1f-421d-aadc-269525d189e8" style={{opacity: 0}} className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/Rectangle-2753_1-p-500.png 500w, images/Rectangle-2753_1.png 750w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753_1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753_1-p-500.png 500w, images/Rectangle-2753_1.png 750w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">Tailored for Tire Dealers</h2>

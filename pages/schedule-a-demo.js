@@ -42,7 +42,7 @@ export default function Page() {
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Discover how Tireweb’s digital solutions can help you sell more tires and wheels. Book a personalized demo with our team and see how our ecommerce and data tools can transform your business.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/1643-1_1.png" loading="lazy" sizes="(max-width: 708px) 100vw, 708px" srcset="images/1643-1_1-p-500.png 500w, images/1643-1_1.png 708w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/1643-1_1.png" loading="lazy" sizes="(max-width: 708px) 100vw, 708px" srcset="/images/1643-1_1-p-500.png 500w, images/1643-1_1.png 708w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div className="client-conatct-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 670px) 100vw, 670px" srcset="images/wheel-visualizer-1-p-500.png 500w, images/wheel-visualizer-1.png 670w" alt="" /></div>
+            <div className="client-conatct-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 670px) 100vw, 670px" srcset="/images/wheel-visualizer-1-p-500.png 500w, images/wheel-visualizer-1.png 670w" alt="" /></div>
           </div>
         </div>
       </section>

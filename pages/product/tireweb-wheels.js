@@ -20,10 +20,10 @@ export default function Page() {
               <p className="pargraph-medium">Navigate the evolving wheel landscape with Tireweb Wheels. Designed for distributors, retailers, and automotive enthusiasts, our suite bridges innovation with unmatched functionality, propelling businesses and customer experiences to new horizons.</p>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button auto-mobile w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="baner-wraper-image"><img src="/../images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="../images/wheel-visualizer-1-p-500.png 500w, ../images/wheel-visualizer-1.png 670w" alt="" className="baner-wraper-icon gap-top" /></div>
+            <div className="baner-wraper-image"><img src="/images/wheel-visualizer-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/wheel-visualizer-1-p-500.png 500w, ../images/wheel-visualizer-1.png 670w" alt="" className="baner-wraper-icon gap-top" /></div>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function Page() {
           <div className="_15px-gap"></div>
           <div data-w-id="28b40e73-0df3-1c50-a379-8e05017605c9" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
             <div className="key-box connection-box chosse-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003558.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003558.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Holistic Solutions</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -49,7 +49,7 @@ export default function Page() {
               <p className="pargraph-medium">Whether for wheel distribution or dynamic retail, our platforms are robust, ensuring you&#x27;re equipped for every aspect of the wheel business.</p>
             </div>
             <div className="key-box connection-box chosse-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003559.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003559.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Customer Engagement</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -58,7 +58,7 @@ export default function Page() {
               <p className="pargraph-medium">Boost customer interactions with our unparalleled visualizer tool, letting them explore and imagine before they buy.</p>
             </div>
             <div className="key-box connection-box chosse-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003560.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003560.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Adaptability</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -67,7 +67,7 @@ export default function Page() {
               <p className="pargraph-medium">Integrate the visualizer with existing platforms, or let it shine independently, ensuring flexibility in application.</p>
             </div>
             <div className="key-box connection-box chosse-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003561.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003561.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Seamless Experience</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -96,7 +96,7 @@ export default function Page() {
                   <div className="border-line-icons"></div>
                 </div>
                 <div className="_30px-gap"></div>
-              </div><img src="/../images/Graphic-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="../images/Graphic-1-p-500.png 500w, ../images/Graphic-1.png 666w" alt="" className="key-features-icon" />
+              </div><img src="/images/Graphic-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/Graphic-1-p-500.png 500w, ../images/Graphic-1.png 666w" alt="" className="key-features-icon" />
               <div className="_30px-gap"></div>
             </div>
             <div className="key-features-text">
@@ -134,7 +134,7 @@ export default function Page() {
                   <div className="border-line-icons"></div>
                 </div>
                 <div className="_30px-gap"></div>
-              </div><img src="/../images/Isolated_right_hand_with_smartphone-1.png" loading="lazy" alt="" className="key-features-icon" />
+              </div><img src="/images/Isolated_right_hand_with_smartphone-1.png" loading="lazy" alt="" className="key-features-icon" />
               <div className="_30px-gap"></div>
             </div>
             <div className="key-features-text">
@@ -172,7 +172,7 @@ export default function Page() {
                   <div className="border-line-icons"></div>
                 </div>
                 <div className="_30px-gap"></div>
-              </div><img src="/../images/OJK8ZS1-2.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="../images/OJK8ZS1-2-p-500.png 500w, ../images/OJK8ZS1-2.png 648w" alt="" className="key-features-icon" />
+              </div><img src="/images/OJK8ZS1-2.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/OJK8ZS1-2-p-500.png 500w, ../images/OJK8ZS1-2.png 648w" alt="" className="key-features-icon" />
               <div className="_30px-gap"></div>
             </div>
             <div className="key-features-text">
@@ -241,10 +241,10 @@ export default function Page() {
               <p className="pargraph-medium white-color-text">Immerse in a world of vivid visualization. Our Wheels Visualizer is not just a tool; it&#x27;s a journey. With diverse configurations, detailed angles, and a myriad of customization options, customers don&#x27;t just see—they experience.</p>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button auto-mobile white-border w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="deep-dive--image"><img src="/../images/2023_GMC_Hummer-EV_ml_resize_x2-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="../images/2023_GMC_Hummer-EV_ml_resize_x2-1-p-500.png 500w, ../images/2023_GMC_Hummer-EV_ml_resize_x2-1.png 752w" alt="" className="deep-dive--icon" /></div>
+            <div className="deep-dive--image"><img src="/images/2023_GMC_Hummer-EV_ml_resize_x2-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 89vw, (max-width: 1279px) 44vw, (max-width: 1919px) 42vw, 676.7916870117188px" srcset="/images/2023_GMC_Hummer-EV_ml_resize_x2-1-p-500.png 500w, ../images/2023_GMC_Hummer-EV_ml_resize_x2-1.png 752w" alt="" className="deep-dive--icon" /></div>
           </div>
         </div>
       </section>

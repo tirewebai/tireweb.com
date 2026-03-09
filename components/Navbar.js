@@ -1,105 +1,163 @@
-import { useEffect } from 'react';
-import Script from 'next/script';
+import { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+function Dropdown({ label, children }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+
+  // Close on outside click
+  useEffect(() => {
+    function handleClick(e) {
+      if (ref.current && !ref.current.contains(e.target)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  return (
+    <div
+      ref={ref}
+      className="header-dropdown w-dropdown"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <div
+        className="header-dropdown-toggel w-dropdown-toggle"
+        onClick={() => setOpen(!open)}
+        style={{ cursor: 'pointer' }}
+      >
+        <div className="header-dropdown-icon w-icon-dropdown-toggle"></div>
+        <div className="header-dropdown-heading">{label}</div>
+      </div>
+      {open && children}
+    </div>
+  );
+}
 
 export default function Navbar() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [sticky, setSticky] = useState(false);
+  const router = useRouter();
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    const handleRouteChange = () => setMobileOpen(false);
+    router.events.on('routeChangeStart', handleRouteChange);
+    return () => router.events.off('routeChangeStart', handleRouteChange);
+  }, [router.events]);
+
+  // Sticky header on scroll
+  useEffect(() => {
+    const handleScroll = () => setSticky(window.scrollY > 80);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <>
-      <div id="navbar" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" className="header w-nav">
+    <div
+      id="navbar"
+      role="banner"
+      className={`header w-nav${sticky ? ' Sticky_Header' : ''}`}
+    >
       <div className="header-wraper">
         <div className="container w-container">
           <div className="header-row">
             <div className="logo">
-              <a href="/" aria-current="page" className="w-nav-brand w--current"><img src="/images/tireweb25th-text.svg" loading="lazy" alt="" className="image" /></a>
+              <Link href="/" className="w-nav-brand">
+                <img src="/images/tireweb25th-text.svg" loading="lazy" alt="Tireweb" className="image" />
+              </Link>
             </div>
             <div className="menu-box">
-              <nav role="navigation" className="nav-menu w-nav-menu">
-                <a href="/" aria-current="page" className="page-menu w-nav-link w--current">Home</a>
-                <div data-hover="true" data-delay="100" className="header-dropdown w-dropdown">
-                  <div className="header-dropdown-toggel w-dropdown-toggle">
-                    <div className="header-dropdown-icon w-icon-dropdown-toggle"></div>
-                    <div className="header-dropdown-heading">Products</div>
-                  </div>
-                  <nav className="header-drpdowns-box w-dropdown-list">
+              {/* Desktop nav */}
+              <nav role="navigation" className={`nav-menu w-nav-menu${mobileOpen ? ' w--nav-menu-open' : ''}`}>
+                <Link href="/" className="page-menu w-nav-link">Home</Link>
+
+                <Dropdown label="Products">
+                  <nav className="header-drpdowns-box w-dropdown-list w--open">
                     <div className="header-dropdown-warper dp-box">
                       <div className="product-pages">
-                        <a href="/product/tireweb-wholesale" className="product-pages-menu w-inline-block"><img src="/images/Group-489.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-mobile" className="product-pages-menu w-inline-block"><img src="/images/Group-490.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-retail" className="product-pages-menu w-inline-block"><img src="/images/Group-185.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-tiresearch" className="product-pages-menu w-inline-block"><img src="/images/Group-1000003572-2.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-wheels" className="product-pages-menu w-inline-block"><img src="/images/Group-190.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-manufacturer" className="product-pages-menu w-inline-block"><img src="/images/Group-187.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-connections" className="product-pages-menu w-inline-block"><img src="/images/Group-193.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-library" className="product-pages-menu w-inline-block"><img src="/images/Group-188.png" loading="lazy" alt="" className="product-pages-icon" /></a>
-                        <a href="/product/tireweb-analytics" className="product-pages-menu w-inline-block"><img src="/images/Group-191.png" loading="lazy" alt="" className="product-pages-icon" /></a>
+                        <Link href="/product/tireweb-wholesale" className="product-pages-menu w-inline-block"><img src="/images/Group-489.png" loading="lazy" alt="Wholesale" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-mobile" className="product-pages-menu w-inline-block"><img src="/images/Group-490.png" loading="lazy" alt="Mobile" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-retail" className="product-pages-menu w-inline-block"><img src="/images/Group-185.png" loading="lazy" alt="Retail" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-tiresearch" className="product-pages-menu w-inline-block"><img src="/images/Group-1000003572-2.png" loading="lazy" alt="TireSearch" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-wheels" className="product-pages-menu w-inline-block"><img src="/images/Group-190.png" loading="lazy" alt="Wheels" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-manufacturer" className="product-pages-menu w-inline-block"><img src="/images/Group-187.png" loading="lazy" alt="Manufacturer" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-connections" className="product-pages-menu w-inline-block"><img src="/images/Group-193.png" loading="lazy" alt="Connections" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-library" className="product-pages-menu w-inline-block"><img src="/images/Group-188.png" loading="lazy" alt="Library" className="product-pages-icon" /></Link>
+                        <Link href="/product/tireweb-analytics" className="product-pages-menu w-inline-block"><img src="/images/Group-191.png" loading="lazy" alt="Analytics" className="product-pages-icon" /></Link>
                       </div>
                     </div>
                   </nav>
-                </div>
-                <div data-hover="true" data-delay="100" className="header-dropdown w-dropdown">
-                  <div className="header-dropdown-toggel w-dropdown-toggle">
-                    <div className="header-dropdown-icon w-icon-dropdown-toggle"></div>
-                    <div className="header-dropdown-heading">Services</div>
-                  </div>
-                  <nav className="header-drpdowns-box partners w-dropdown-list">
+                </Dropdown>
+
+                <Dropdown label="Services">
+                  <nav className="header-drpdowns-box partners w-dropdown-list w--open">
                     <div className="header-dropdown-warper partners-box">
-                      <a href="/custom-development" className="page-menu sub-menu">Custom Development</a>
-                      <a href="/marketing-services" className="page-menu sub-menu">Marketing Services</a>
+                      <Link href="/custom-development" className="page-menu sub-menu">Custom Development</Link>
+                      <Link href="/marketing-services" className="page-menu sub-menu">Marketing Services</Link>
                     </div>
                   </nav>
-                </div>
-                <div data-hover="true" data-delay="100" className="header-dropdown w-dropdown">
-                  <div className="header-dropdown-toggel w-dropdown-toggle">
-                    <div className="header-dropdown-icon w-icon-dropdown-toggle"></div>
-                    <div className="header-dropdown-heading">Support</div>
-                  </div>
-                  <nav className="header-drpdowns-box partners w-dropdown-list">
+                </Dropdown>
+
+                <Dropdown label="Support">
+                  <nav className="header-drpdowns-box partners w-dropdown-list w--open">
                     <div className="header-dropdown-warper partners-box">
-                      <a href="https://servicedesk.esprofessionals.com/" target="_blank" className="page-menu sub-menu">Wholesale Support</a>
-                      <a href="https://tireweb.zendesk.com/auth/v2/login/" target="_blank" className="page-menu sub-menu">Retail Support</a>
-                      <a href="https://developer.tirewire.com" target="_blank" className="page-menu sub-menu">API Documentation</a>
+                      <a href="https://servicedesk.esprofessionals.com/" target="_blank" rel="noreferrer" className="page-menu sub-menu">Wholesale Support</a>
+                      <a href="https://tireweb.zendesk.com/auth/v2/login/" target="_blank" rel="noreferrer" className="page-menu sub-menu">Retail Support</a>
+                      <a href="https://developer.tirewire.com" target="_blank" rel="noreferrer" className="page-menu sub-menu">API Documentation</a>
                     </div>
                   </nav>
-                </div>
-                <div data-hover="true" data-delay="100" className="header-dropdown w-dropdown">
-                  <div className="header-dropdown-toggel w-dropdown-toggle">
-                    <div className="header-dropdown-icon w-icon-dropdown-toggle"></div>
-                    <div className="header-dropdown-heading">Partners</div>
-                  </div>
-                  <nav className="header-drpdowns-box partners w-dropdown-list">
+                </Dropdown>
+
+                <Dropdown label="Partners">
+                  <nav className="header-drpdowns-box partners w-dropdown-list w--open">
                     <div className="header-dropdown-warper partners-box">
-                      <a href="/integration-partners-hub" className="page-menu sub-menu">Integration partners hub</a>
-                      <a href="/agency-partners-hub" className="page-menu sub-menu">Agency partners hub</a>
-                      <a href="/developers" className="page-menu sub-menu">Developers hub</a>
-                      <a href="/become-a-partner" className="page-menu sub-menu">Become a partner</a>
+                      <Link href="/integration-partners-hub" className="page-menu sub-menu">Integration partners hub</Link>
+                      <Link href="/agency-partners-hub" className="page-menu sub-menu">Agency partners hub</Link>
+                      <Link href="/developers" className="page-menu sub-menu">Developers hub</Link>
+                      <Link href="/become-a-partner" className="page-menu sub-menu">Become a partner</Link>
                     </div>
                   </nav>
-                </div>
-                <a href="/about-tireweb" className="page-menu w-nav-link">About</a>
-                <div data-hover="true" data-delay="100" className="header-dropdown w-dropdown">
-                  <div className="header-dropdown-toggel w-dropdown-toggle">
-                    <div className="header-dropdown-icon w-icon-dropdown-toggle"></div>
-                    <div className="header-dropdown-heading">Contact Us</div>
-                  </div>
-                  <nav className="header-drpdowns-box partners w-dropdown-list">
+                </Dropdown>
+
+                <Link href="/about-tireweb" className="page-menu w-nav-link">About</Link>
+
+                <Dropdown label="Contact Us">
+                  <nav className="header-drpdowns-box partners w-dropdown-list w--open">
                     <div className="header-dropdown-warper partners-box">
-                      <a href="/contact-us" className="page-menu sub-menu">Contact</a>
-                      <a href="/schedule-a-demo" className="page-menu sub-menu">Schedule a Demo</a>
-                      <a href="/careers-at-tireweb" className="page-menu sub-menu">Careers</a>
+                      <Link href="/contact-us" className="page-menu sub-menu">Contact</Link>
+                      <Link href="/schedule-a-demo" className="page-menu sub-menu">Schedule a Demo</Link>
+                      <Link href="/careers-at-tireweb" className="page-menu sub-menu">Careers</Link>
                     </div>
                   </nav>
-                </div>
+                </Dropdown>
+
                 <div className="header-button mobile-button">
-                  <a href="#" className="primary-button w-inline-block">
-                    <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
-                  </a>
+                  <Link href="/schedule-a-demo" className="primary-button w-inline-block">
+                    <div className="primary-button-text">Schedule a Demo</div>
+                    <img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                  </Link>
                 </div>
               </nav>
+
+              {/* Desktop CTA button */}
               <div className="header-button">
-                <a href="/schedule-a-demo" className="primary-button hide-on-mobile relative-postions w-inline-block">
-                  <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
-                </a>
+                <Link href="/schedule-a-demo" className="primary-button hide-on-mobile relative-postions w-inline-block">
+                  <div className="primary-button-text">Schedule a Demo</div>
+                  <img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                </Link>
               </div>
-              <div className="menu-button w-nav-button">
+
+              {/* Mobile hamburger */}
+              <div
+                className={`menu-button w-nav-button${mobileOpen ? ' w--open' : ''}`}
+                onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label="Toggle menu"
+                style={{ cursor: 'pointer' }}
+              >
                 <div className="icon-4 w-icon-nav-menu"></div>
               </div>
             </div>
@@ -107,6 +165,5 @@ export default function Navbar() {
         </div>
       </div>
     </div>
-    </>
   );
 }

@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <section className="footer">
       <div className="container">
-        <div className="footer-logo"><img src="/images/Group-390.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.875px, 100vw" srcset="images/Group-390-p-500.png 500w, images/Group-390-p-800.png 800w, images/Group-390-p-1080.png 1080w, images/Group-390.png 1440w" alt="" /></div>
+        <div className="footer-logo"><img src="/images/Group-390.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.875px, 100vw" srcset="/images/Group-390-p-500.png 500w, images/Group-390-p-800.png 800w, images/Group-390-p-1080.png 1080w, images/Group-390.png 1440w" alt="" /></div>
         <div className="_30px-gap"></div>
         <div className="footer-wraper">
           <div className="footer-box">
@@ -13,7 +13,7 @@ export default function Footer() {
               </div>
               <div className="_15px-gap"></div>
             </div>
-            <a href="/mailto:sales@tireweb.com" className="conatct-information w-inline-block"><img src="/images/fluent_mail-32-regular.svg" loading="lazy" alt="" className="information-icon" />
+            <a href="mailto:sales@tireweb.com" className="conatct-information w-inline-block"><img src="/images/fluent_mail-32-regular.svg" loading="lazy" alt="" className="information-icon" />
               <div className="information-text">sales@tireweb.com</div>
             </a>
             <div className="_15px-gap"></div>

@@ -19,7 +19,7 @@ export default function Page() {
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Bespoke Solutions Tailored for the Tire Industry.</p>
             </div>
-            <div className="baner-wraper-image"><img src="/images/desktop-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/desktop-1-p-500.png 500w, images/desktop-1.png 621w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/desktop-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/desktop-1-p-500.png 500w, images/desktop-1.png 621w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Page() {
                 <p className="pargraph-medium">In the diverse world of the tire industry, one-size-fits-all doesn’t always hit the mark. Tireweb understands this, and that&#x27;s why we specialize in building custom solutions, ensuring every nuance of your business is addressed, every unique requirement catered to.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="images/Rectangle-2753-p-500.jpg 500w, images/Rectangle-2753.jpg 750w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Rectangle-2753.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 1279px) 46vw, (max-width: 1919px) 43vw, 696px" srcset="/images/Rectangle-2753-p-500.jpg 500w, images/Rectangle-2753.jpg 750w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function Page() {
           </div>
         </div>
         <div className="our-process-wraper">
-          <div className="dektop-image"><img src="/images/Group-1000003469.png" loading="lazy" sizes="100vw" srcset="images/Group-1000003469-p-500.png 500w, images/Group-1000003469-p-800.png 800w, images/Group-1000003469-p-1080.png 1080w, images/Group-1000003469.png 1442w" alt="" className="image-4" /></div>
+          <div className="dektop-image"><img src="/images/Group-1000003469.png" loading="lazy" sizes="100vw" srcset="/images/Group-1000003469-p-500.png 500w, images/Group-1000003469-p-800.png 800w, images/Group-1000003469-p-1080.png 1080w, images/Group-1000003469.png 1442w" alt="" className="image-4" /></div>
           <div className="mobile-image"><img src="/images/Group-1000003579.png" loading="lazy" alt="" className="image-5" /></div>
         </div>
       </section>

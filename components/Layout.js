@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 export default function Layout({ children, title, description, canonical }) {
   return (
@@ -21,6 +22,7 @@ export default function Layout({ children, title, description, canonical }) {
       <aside id="luxy" className="page-wrapper">
         <Navbar />
         {children}
+        <Footer />
       </aside>
     </>
   );

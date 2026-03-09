@@ -20,17 +20,17 @@ export default function Page() {
               <p className="pargraph-medium">Tire and Wheel Ordering in the Palm of Your Hand.</p>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button auto-mobile w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
-            <div className="baner-wraper-image"><img src="/../images/OWINJ41-1.png" loading="lazy" sizes="(max-width: 914px) 100vw, 914px" srcset="../images/OWINJ41-1-p-500.png 500w, ../images/OWINJ41-1-p-800.png 800w, ../images/OWINJ41-1.png 914w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/OWINJ41-1.png" loading="lazy" sizes="(max-width: 914px) 100vw, 914px" srcset="/images/OWINJ41-1-p-500.png 500w, ../images/OWINJ41-1-p-800.png 800w, ../images/OWINJ41-1.png 914w" alt="" className="baner-wraper-icon" /></div>
           </div>
         </div>
       </div>
       <section data-w-id="dd8ddb7f-f83d-93c5-8eca-f9a7a3dc3dbe" style={{opacity: 0}} className="section-repet transparent--section">
         <div className="container">
           <div className="repet-wraper">
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/iStock-1488880393-1.jpg" loading="lazy" sizes="(max-width: 4096px) 100vw, 4096px" srcset="../images/iStock-1488880393-1-p-500.jpg 500w, ../images/iStock-1488880393-1-p-800.jpg 800w, ../images/iStock-1488880393-1-p-1080.jpg 1080w, ../images/iStock-1488880393-1-p-1600.jpg 1600w, ../images/iStock-1488880393-1-p-2000.jpg 2000w, ../images/iStock-1488880393-1-p-2600.jpg 2600w, ../images/iStock-1488880393-1-p-3200.jpg 3200w, ../images/iStock-1488880393-1.jpg 4096w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/iStock-1488880393-1.jpg" loading="lazy" sizes="(max-width: 4096px) 100vw, 4096px" srcset="/images/iStock-1488880393-1-p-500.jpg 500w, ../images/iStock-1488880393-1-p-800.jpg 800w, ../images/iStock-1488880393-1-p-1080.jpg 1080w, ../images/iStock-1488880393-1-p-1600.jpg 1600w, ../images/iStock-1488880393-1-p-2000.jpg 2000w, ../images/iStock-1488880393-1-p-2600.jpg 2600w, ../images/iStock-1488880393-1-p-3200.jpg 3200w, ../images/iStock-1488880393-1.jpg 4096w" alt="" className="repet-wraper-iamge-icon" /></div>
             <div className="repet-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two">About Tireweb Mobile</h2>
@@ -159,7 +159,7 @@ export default function Page() {
       <section className="section-app">
         <div className="container">
           <div className="app-wraper">
-            <div className="app-immge-box"><img src="/../images/Group-1000003553.png" loading="lazy" sizes="(max-width: 828px) 100vw, 828px" srcset="../images/Group-1000003553-p-500.png 500w, ../images/Group-1000003553-p-800.png 800w, ../images/Group-1000003553.png 828w" alt="" className="app-image-icons" /></div>
+            <div className="app-immge-box"><img src="/images/Group-1000003553.png" loading="lazy" sizes="(max-width: 828px) 100vw, 828px" srcset="/images/Group-1000003553-p-500.png 500w, ../images/Group-1000003553-p-800.png 800w, ../images/Group-1000003553.png 828w" alt="" className="app-image-icons" /></div>
             <div className="app-content">
               <div className="section-heading">
                 <h2 className="heading-two">Download Our Demo App</h2>
@@ -172,12 +172,12 @@ export default function Page() {
               </div>
               <div className="_30px-gap"></div>
               <div className="app-image-icon">
-                <a href="https://play.google.com/store/apps/details?id=com.companyname.tirewebmobile&amp;hl=en&amp;gl=US" target="_blank" className="app-link w-inline-block"><img src="/../images/pngegg-1.png" loading="lazy" alt="" className="app-link-image" /></a>
-                <a href="https://apps.apple.com/au/app/tireweb/id6450261776" target="_blank" className="app-link w-inline-block"><img src="/../images/pngegg-2.png" loading="lazy" alt="" className="app-link-image" /></a>
+                <a href="https://play.google.com/store/apps/details?id=com.companyname.tirewebmobile&amp;hl=en&amp;gl=US" target="_blank" className="app-link w-inline-block"><img src="/images/pngegg-1.png" loading="lazy" alt="" className="app-link-image" /></a>
+                <a href="https://apps.apple.com/au/app/tireweb/id6450261776" target="_blank" className="app-link w-inline-block"><img src="/images/pngegg-2.png" loading="lazy" alt="" className="app-link-image" /></a>
               </div>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>

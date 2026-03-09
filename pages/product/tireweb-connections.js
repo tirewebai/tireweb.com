@@ -14,14 +14,14 @@ export default function Page() {
       <div className="baner">
         <div className="container">
           <div data-w-id="dec21e37-d885-e6bd-bf32-30274dc72df8" style={{opacity: 0}} className="baner-wraper">
-            <div className="baner-wraper-image"><img src="/../images/pngegg-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="../images/pngegg-3-p-500.png 500w, ../images/pngegg-3.png 770w" alt="" className="baner-wraper-icon" /></div>
+            <div className="baner-wraper-image"><img src="/images/pngegg-3.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="/images/pngegg-3-p-500.png 500w, ../images/pngegg-3.png 770w" alt="" className="baner-wraper-icon" /></div>
             <div className="baner-wraper-content">
               <h1 className="heading-one _60px-fonts">Tireweb Connections</h1>
               <div className="_15px-gap"></div>
               <p className="pargraph-medium">Building the Future of Tire Industry Integrations.</p>
               <div className="_30px-gap"></div>
               <a href="/schedule-a-demo" className="primary-button fixed-width-button w-inline-block">
-                <div className="primary-button-text">Schedule a Demo</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                <div className="primary-button-text">Schedule a Demo</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
               </a>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function Page() {
                 <p className="pargraph-extra-large">Step into Tireweb Connections, your key to unlocking seamless integrations in the tire industry. With our advanced APIs and comprehensive support for data formats, we offer developers the flexibility and power to build superior solutions tailored to diverse requirements.</p>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.96875px" srcset="../images/1643-1-p-500.png 500w, ../images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/1643-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, 239.96875px" srcset="/images/1643-1-p-500.png 500w, ../images/1643-1.png 661w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function Page() {
           <div className="_15px-gap"></div>
           <div data-w-id="28b40e73-0df3-1c50-a379-8e05017605c9" style={{opacity: 0}} className="key-wraper navy-blue-section-wraper">
             <div className="key-box connection-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003583.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003583.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Flexibility in Choice</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -61,7 +61,7 @@ export default function Page() {
               <p className="pargraph-medium">We offer both API and daily CSV formats for inventory and pricing. APIs support both inventory/pricing lookup and order placement.</p>
             </div>
             <div className="key-box connection-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003584.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003584.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Remote Data (CSV Flat Files)</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -70,7 +70,7 @@ export default function Page() {
               <p className="pargraph-medium">Daily flat-files by FTP or SFTP for Tireweb tire distributor inventory and pricing. <a href="https://forms.tireweb.com/remote-data/request" target="_blank">Apply here</a>.</p>
             </div>
             <div className="key-box connection-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003554.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003554.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Top-Notch Security and Speed</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -79,7 +79,7 @@ export default function Page() {
               <p className="pargraph-medium">Navigate with confidence, knowing our APIs prioritize data accuracy and speed.</p>
             </div>
             <div className="key-box connection-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003557.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003557.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Expansive Connectivity</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -88,7 +88,7 @@ export default function Page() {
               <p className="pargraph-medium">With integrations to all prominent point of sale (POS) systems and tire suppliers, your application will be deeply integrated with the tire industry.</p>
             </div>
             <div className="key-box connection-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003556.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003556.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Dynamic Updates</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -97,7 +97,7 @@ export default function Page() {
               <p className="pargraph-medium">Empower businesses with live inventory, real-time pricing, and online order placement capabilities.</p>
             </div>
             <div className="key-box connection-box">
-              <div className="_30px-gap"></div><img src="/../images/Group-1000003555.png" loading="lazy" alt="" className="connection-icon" />
+              <div className="_30px-gap"></div><img src="/images/Group-1000003555.png" loading="lazy" alt="" className="connection-icon" />
               <h3 className="heading-three">Normalized Data</h3>
               <div className="_10px-gap"></div>
               <div className="border-line">
@@ -136,7 +136,7 @@ export default function Page() {
             <div className="div-block"></div>
           </div>
           <div className="_30px-gap"></div>
-          <div className="wholesale-wraper"><img src="/../images/svg-1.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/../images/Logo-White-Transparent.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/../images/Layer-2.png" loading="lazy" alt="" className="wholesale-image-icon" /></div>
+          <div className="wholesale-wraper"><img src="/images/svg-1.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/images/Logo-White-Transparent.png" loading="lazy" alt="" className="wholesale-image-icon" /><img src="/images/Layer-2.png" loading="lazy" alt="" className="wholesale-image-icon" /></div>
         </div>
       </section>
       <section data-w-id="021561b2-b26f-2075-c718-c320fc0344a5" style={{opacity: 0}} className="section-repet transparent--section for-developers">
@@ -153,11 +153,11 @@ export default function Page() {
                 <p className="pargraph-medium">Building applications for the tire and wheel industry? Tireweb Connections offers an arsenal of tools and resources to ensure your development journey is smooth. Reach out to our sales team to discuss your requirements and how we may be able to assist.</p>
                 <div className="_15px-gap"></div>
                 <a href="https://developer.tirewire.com" target="_blank" className="primary-button fixed-width-button auto-mobile width-added w-inline-block">
-                  <div className="primary-button-text">Access API Documentation</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+                  <div className="primary-button-text">Access API Documentation</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
                 </a>
               </div>
             </div>
-            <div className="repet--wraper-image show-second-colum-mobile"><img src="/../images/Tireweb-Wholesale-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="../images/Tireweb-Wholesale-1-p-500.jpg 500w, ../images/Tireweb-Wholesale-1.jpg 743w" alt="" className="repet-wraper-iamge-icon" /></div>
+            <div className="repet--wraper-image show-second-colum-mobile"><img src="/images/Tireweb-Wholesale-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, 239.984375px" srcset="/images/Tireweb-Wholesale-1-p-500.jpg 500w, ../images/Tireweb-Wholesale-1.jpg 743w" alt="" className="repet-wraper-iamge-icon" /></div>
           </div>
         </div>
       </section>
@@ -217,10 +217,10 @@ export default function Page() {
         </div>
         <div className="button-group">
           <a href="/schedule-a-demo" className="primary-button benifits-button w-inline-block">
-            <div className="primary-button-text">Experience Unparalleled Integration with Tireweb Connections</div><img src="/../images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
+            <div className="primary-button-text">Experience Unparalleled Integration with Tireweb Connections</div><img src="/images/Vector.svg" loading="lazy" alt="" className="primary-button-icon" />
           </a>
           <a href="/contact-us" className="secondary-button primary-button get-started-today white-backgrouns w-inline-block">
-            <div className="primary-button-text get-started-today--text">Reach Out Today!</div><img src="/../images/solar_arrow-up-broken.png" loading="lazy" alt="" className="primary-button-icon" />
+            <div className="primary-button-text get-started-today--text">Reach Out Today!</div><img src="/images/solar_arrow-up-broken.png" loading="lazy" alt="" className="primary-button-icon" />
           </a>
         </div>
       </section>

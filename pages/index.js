@@ -274,7 +274,7 @@ export default function Page() {
           </div>
           <div className="_30px-gap"></div>
           <div data-w-id="3d53dd76-d968-2dd9-c013-390ea8710593" style={{opacity: 0}} className="services-wraper">
-            <div className="services-wraper-image"><img src="/images/Group-204.jpg" loading="lazy" sizes="(max-width: 559px) 100vw, 559px" srcset="images/Group-204-p-500.jpg 500w, images/Group-204.jpg 559w" alt="" className="services-wraper-image-icon" /></div>
+            <div className="services-wraper-image"><img src="/images/Group-204.jpg" loading="lazy" sizes="(max-width: 559px) 100vw, 559px" srcset="/images/Group-204-p-500.jpg 500w, images/Group-204.jpg 559w" alt="" className="services-wraper-image-icon" /></div>
             <div className="services-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two reduce-font-size">Custom development</h2>
@@ -292,7 +292,7 @@ export default function Page() {
             </div>
           </div>
           <div data-w-id="c0ad4b5e-1a67-2dde-37eb-251f472d1477" style={{opacity: 0}} className="services-wraper">
-            <div className="services-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 559px) 100vw, 559px" srcset="images/Group-206-1-p-500.png 500w, images/Group-206-1.png 559w" alt="" className="services-wraper-image-icon" /></div>
+            <div className="services-wraper-image"><img src="/images/Group-206-1.png" loading="lazy" sizes="(max-width: 559px) 100vw, 559px" srcset="/images/Group-206-1-p-500.png 500w, images/Group-206-1.png 559w" alt="" className="services-wraper-image-icon" /></div>
             <div className="services-wraper-content">
               <div className="section-heading">
                 <h2 className="heading-two reduce-font-size">Marketing</h2>

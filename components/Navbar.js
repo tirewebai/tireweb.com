@@ -61,9 +61,6 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Mobile menu open: use data-nav-menu-open attribute (Webflow CSS selector)
-  const mobileNavAttrs = mobileOpen ? { 'data-nav-menu-open': '' } : {};
-
   return (
     <div
       id="navbar"
@@ -83,7 +80,6 @@ export default function Navbar() {
               <nav
                 role="navigation"
                 className="nav-menu w-nav-menu"
-                {...mobileNavAttrs}
               >
                 <Link href="/" className={`page-menu w-nav-link${router.pathname === '/' ? ' w--current' : ''}`}>Home</Link>
 

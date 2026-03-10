@@ -203,6 +203,18 @@ a.primary-button:hover img {
   }
 
 
+/* Mobile nav: show hamburger button and hide desktop nav menu at tablet/mobile */
+@media (max-width: 991px) {
+  /* Show hamburger — default .w-nav-button is display:none, no data-collapse attr to override it */
+  .menu-button.w-nav-button {
+    display: block;
+  }
+  /* Hide the desktop nav menu inside .menu-box — overlay nav is outside .menu-box so unaffected */
+  .menu-box > nav.nav-menu.w-nav-menu {
+    display: none;
+  }
+}
+
 /* Footer logo alignment - centered above footer columns */
 .footer-logo {
   display: flex;

@@ -107,7 +107,7 @@ export default function HomeBanner() {
           <div
             className="left-arrow-2 w-slider-arrow-left"
             onClick={prev}
-            style={{ cursor: 'pointer', width: 40, height: 40, position: 'relative', overflow: 'visible', top: 'auto', bottom: 'auto', left: 'auto', right: 'auto' }}
+            style={{ cursor: 'pointer', width: 40, height: 40, position: 'relative', overflow: 'visible', top: 'auto', bottom: 'auto', left: 'auto', right: 'auto', margin: 0 }}
           >
             <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40, height: 40 }} />
           </div>
@@ -116,7 +116,7 @@ export default function HomeBanner() {
           <div
             className="right-arrow-2 w-slider-arrow-right"
             onClick={next}
-            style={{ cursor: 'pointer', width: 40, height: 40, position: 'relative', overflow: 'visible', top: 'auto', bottom: 'auto', left: 'auto', right: 'auto' }}
+            style={{ cursor: 'pointer', width: 40, height: 40, position: 'relative', overflow: 'visible', top: 'auto', bottom: 'auto', left: 'auto', right: 'auto', margin: 0 }}
           >
             <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'none', position: 'static', width: 40, height: 40 }} />
           </div>

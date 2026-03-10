@@ -101,23 +101,24 @@ export default function HomeBanner() {
         </div>
 
         {/* Controls: arrows only, no dot indicators (matches production) */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 8, paddingTop: 8, paddingBottom: 16, position: 'relative' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 8, paddingTop: 8, paddingBottom: 16 }}>
           {/* Prev arrow — Group-177.svg is right-pointing, so flip it for ← */}
+          {/* position:relative + overflow:visible override webflow's position:absolute + overflow:hidden from .w-slider-arrow-left */}
           <div
             className="left-arrow-2 w-slider-arrow-left"
             onClick={prev}
-            style={{ cursor: 'pointer', width: 40 }}
+            style={{ cursor: 'pointer', width: 40, height: 40, position: 'relative', overflow: 'visible', top: 'auto', bottom: 'auto', left: 'auto', right: 'auto' }}
           >
-            <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40 }} />
+            <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40, height: 40 }} />
           </div>
 
           {/* Next arrow — no flip needed, already points → */}
           <div
             className="right-arrow-2 w-slider-arrow-right"
             onClick={next}
-            style={{ cursor: 'pointer', width: 40 }}
+            style={{ cursor: 'pointer', width: 40, height: 40, position: 'relative', overflow: 'visible', top: 'auto', bottom: 'auto', left: 'auto', right: 'auto' }}
           >
-            <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'none', position: 'static', width: 40 }} />
+            <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'none', position: 'static', width: 40, height: 40 }} />
           </div>
         </div>
       </div>

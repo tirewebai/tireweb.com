@@ -165,7 +165,7 @@ export default function Navbar() {
 
       {/* Mobile overlay - full-width menu panel */}
       {mobileOpen && (
-        <div className="w-nav-overlay" style={{ display: 'block' }}>
+        <div className="w-nav-overlay" style={{ display: 'block', position: 'absolute', top: '100%', left: 0, right: 0, width: '100%', zIndex: 1000 }}>
           <nav
             role="navigation"
             className="nav-menu w-nav-menu"

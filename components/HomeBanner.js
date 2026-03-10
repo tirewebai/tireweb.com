@@ -102,22 +102,22 @@ export default function HomeBanner() {
 
         {/* Controls: arrows only, no dot indicators (matches production) */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 8, paddingTop: 8, paddingBottom: 16, position: 'relative' }}>
-          {/* Prev arrow */}
+          {/* Prev arrow — Group-177.svg is right-pointing, so flip it for ← */}
           <div
             className="left-arrow-2 w-slider-arrow-left"
             onClick={prev}
             style={{ cursor: 'pointer', width: 40 }}
           >
-            <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'none', position: 'static', width: 40 }} />
+            <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40 }} />
           </div>
 
-          {/* Next arrow */}
+          {/* Next arrow — no flip needed, already points → */}
           <div
             className="right-arrow-2 w-slider-arrow-right"
             onClick={next}
             style={{ cursor: 'pointer', width: 40 }}
           >
-            <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40 }} />
+            <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'none', position: 'static', width: 40 }} />
           </div>
         </div>
       </div>

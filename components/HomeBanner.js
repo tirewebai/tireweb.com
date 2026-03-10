@@ -57,7 +57,7 @@ export default function HomeBanner() {
       style={{ position: 'relative' }}
     >
       <div className="container">
-        {/* Slide content - 2-column grid: text left, image right */}
+        {/* Slide content - 2-column grid: image left, text right (matches production) */}
         <div className="baner-grid">
           <div
             className="baner-grid-inner"
@@ -70,7 +70,19 @@ export default function HomeBanner() {
               padding: '20px 0',
             }}
           >
-            {/* Text column (left) */}
+            {/* Image column (left) — matches production cell order */}
+            <div className="baner-image" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+              <img
+                key={current}
+                loading="eager"
+                alt=""
+                src={slide.image}
+                className="baner-icon"
+                style={{ width: '100%', maxWidth: '100%', height: 'auto', animation: 'fadeIn 0.6s ease' }}
+              />
+            </div>
+
+            {/* Text column (right) */}
             <div
               className="baner-content-wraper"
               key={current + '-text'}
@@ -85,47 +97,16 @@ export default function HomeBanner() {
                 <img loading="lazy" src="/images/Vector.svg" alt="" className="primary-button-icon" />
               </Link>
             </div>
-
-            {/* Image column (right) */}
-            <div className="baner-image" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-              <img
-                key={current}
-                loading="eager"
-                alt=""
-                src={slide.image}
-                className="baner-icon"
-                style={{ width: '100%', maxWidth: '100%', height: 'auto', animation: 'fadeIn 0.6s ease' }}
-              />
-            </div>
           </div>
         </div>
 
-        {/* Controls row: dots centre, arrows right */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, paddingTop: 8, paddingBottom: 16, position: 'relative' }}>
-          {/* Dot indicators */}
-          {slides.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrent(i)}
-              style={{
-                width: 10,
-                height: 10,
-                borderRadius: '50%',
-                border: 'none',
-                cursor: 'pointer',
-                background: i === current ? '#023D72' : '#ccc',
-                padding: 0,
-                transition: 'background 0.3s',
-              }}
-              aria-label={`Go to slide ${i + 1}`}
-            />
-          ))}
-
+        {/* Controls: arrows only, no dot indicators (matches production) */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 8, paddingTop: 8, paddingBottom: 16, position: 'relative' }}>
           {/* Prev arrow */}
           <div
             className="left-arrow-2 w-slider-arrow-left"
             onClick={prev}
-            style={{ cursor: 'pointer', position: 'absolute', right: 70, width: 40 }}
+            style={{ cursor: 'pointer', width: 40 }}
           >
             <img loading="lazy" src="/images/Group-177.svg" alt="Previous" className="image-8" style={{ transform: 'none', position: 'static', width: 40 }} />
           </div>
@@ -134,7 +115,7 @@ export default function HomeBanner() {
           <div
             className="right-arrow-2 w-slider-arrow-right"
             onClick={next}
-            style={{ cursor: 'pointer', position: 'absolute', right: 16, width: 40 }}
+            style={{ cursor: 'pointer', width: 40 }}
           >
             <img loading="lazy" src="/images/Group-177.svg" alt="Next" className="image-9" style={{ transform: 'rotateY(180deg)', position: 'static', width: 40 }} />
           </div>

@@ -2,9 +2,18 @@
  * LogoTicker — pure CSS infinite scrolling logo marquee.
  * Accepts an optional `logos` prop (array of image paths).
  * Falls back to the default homepage set if none provided.
+ *
+ * Logo order matches production tireweb.com exactly.
+ * Note: Group-1000003610, 3613, 3614 are not available in repo;
+ * substituted with available logos in those positions.
  */
 
 const DEFAULT_LOGOS = [
+  '/images/Group-1000003612.png',
+  '/images/Group-1000003616.png',
+  '/images/Group-1000003615.png',
+  '/images/Group-1000003627.png',   // substitute for 3614
+  '/images/Group-1000003629.png',   // substitute for 3613
   '/images/Group-1000003602.png',
   '/images/Group-1000003603.png',
   '/images/Group-1000003604.png',
@@ -14,13 +23,8 @@ const DEFAULT_LOGOS = [
   '/images/Group-1000003607.png',
   '/images/Group-1000003606.png',
   '/images/Group-1000003617.png',
-  '/images/Group-1000003627.png',
+  '/images/www.png',                // substitute for 3610
   '/images/Group-1000003611.png',
-  '/images/Group-1000003612.png',
-  '/images/Group-1000003616.png',
-  '/images/Group-1000003615.png',
-  '/images/www.png',
-  '/images/Group-1000003629.png',
 ];
 
 export default function LogoTicker({ logos = DEFAULT_LOGOS }) {
@@ -32,7 +36,7 @@ export default function LogoTicker({ logos = DEFAULT_LOGOS }) {
       {/* Duplicate the set so the animation loops seamlessly */}
       <div className="logo-ticker-track">
         {[...logos, ...logos].map((src, i) => (
-          <div key={i} className="clients-logo-wraper white-background-icon" style={{ flexShrink: 0, width: 160, marginBottom: 0 }}>
+          <div key={i} className="clients-logo-wraper white-background-icon" style={{ flexShrink: 0, width: 270, marginBottom: 0 }}>
             <img src={src} loading="lazy" alt="" className="clients-logo-icon" />
           </div>
         ))}

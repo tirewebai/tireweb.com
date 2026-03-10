@@ -85,7 +85,7 @@ export default function Navbar() {
                 className="nav-menu w-nav-menu"
                 {...mobileNavAttrs}
               >
-                <Link href="/" className="page-menu w-nav-link">Home</Link>
+                <Link href="/" className={`page-menu w-nav-link${router.pathname === '/' ? ' w--current' : ''}`}>Home</Link>
 
                 <Dropdown label="Products">
                   <div className="header-dropdown-warper dp-box">
@@ -127,7 +127,7 @@ export default function Navbar() {
                   </div>
                 </Dropdown>
 
-                <Link href="/about-tireweb" className="page-menu w-nav-link">About</Link>
+                <Link href="/about-tireweb" className={`page-menu w-nav-link${router.pathname === '/about-tireweb' ? ' w--current' : ''}`}>About</Link>
 
                 <Dropdown label="Contact Us">
                   <div className="header-dropdown-warper partners-box">
@@ -182,7 +182,7 @@ export default function Navbar() {
               textAlign: 'left',
             }}
           >
-            <Link href="/" className="page-menu w-nav-link" style={{ display: 'block', color: '#fff', padding: '10px 20px' }}>Home</Link>
+            <Link href="/" className={`page-menu w-nav-link${router.pathname === '/' ? ' w--current' : ''}`} style={{ display: 'block', color: '#fff', padding: '10px 20px' }}>Home</Link>
 
             <MobileDropdown label="Products">
               <div style={{ padding: '0 20px 10px', background: '#01305a' }}>
@@ -224,7 +224,7 @@ export default function Navbar() {
               </div>
             </MobileDropdown>
 
-            <Link href="/about-tireweb" className="page-menu w-nav-link" style={{ display: 'block', color: '#fff', padding: '10px 20px' }}>About</Link>
+            <Link href="/about-tireweb" className={`page-menu w-nav-link${router.pathname === '/about-tireweb' ? ' w--current' : ''}`} style={{ display: 'block', color: '#fff', padding: '10px 20px' }}>About</Link>
 
             <MobileDropdown label="Contact Us">
               <div style={{ padding: '5px 30px 10px', background: '#01305a' }}>
